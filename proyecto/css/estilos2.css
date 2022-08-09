@@ -1,0 +1,705 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container__grid{
+    grid-template-columns: 1fr;
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+    grid-template-rows: auto;
+}
+/*Inicio header*/
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    background-color: lightseagreen;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2%;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 3%;
+}
+.header__logo__imagen{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+}
+.header__logo__titulo{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: white;
+}
+.header__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+.header__nav__ul{
+    display: flex;
+    flex-direction: row ;
+    list-style: none;
+}
+.header__nav__ul__li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    padding-left: 25px;
+}
+.busqueda{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.busqueda__input {
+    width: 70%;
+}
+
+.busqueda__boton {
+    width: 25%;
+}
+/*Fin header*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*Inicio carrusel de productos*/
+.carrusel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    background-color: #F2BDE0;
+    padding: 2% 1.5%;
+}
+.carrusel__producto__imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel__productos__imagen__enlace {
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+/*Fin carrusel de productos*/
+/*Descripcion de los productos*/
+.productos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    background-image: url(../imagenes/fondonoquis.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2%;
+
+}
+.productos__descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAEAD3;
+    margin-right: 2%;
+}
+.productos__descripcion__titulo{
+    font-size: 1.6rem;
+}
+.productos__descripcion__texto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    text-align: justify;
+    padding: 0% 2%;
+    color: black;
+    font-size: 1rem;
+}
+.productos__descripcion__link{
+    text-decoration: none;
+    color: black;
+    padding-top: 2%;
+}
+.productos__imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.productos__imagen__imagen{
+    height: 300px;
+    width: 300px;
+}
+
+/*Fin descripcion de los productos*/
+/*Inicio descripcion de la empresa*/
+.empresa{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    background-image: url(../imagenes/fondoempresa2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2%;
+}
+.empresa__imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.empresa__imagen__imagen{
+    height: 300px;
+    width: 250px;
+}
+.empresa__descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAEAD3;
+    margin-left: 2.5%;
+}
+.empresa__descripcion__titulo{
+    font-size: 1.6rem;
+}
+.empresa__descripcion__texto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    text-align: justify;
+    padding: 0% 2%;
+    color: black;
+    font-size: 1rem;
+}
+.empresa__descripcion__link{
+    text-decoration: none;
+    color: black;
+    padding-top: 2%;
+}
+/*Fin descripcion de la empresa*/
+/*inicio footer*/
+.footer{
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    background-color: lightseagreen;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 0%;
+}
+.footer__imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__imagen__imagen{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.footer__datos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.6%;
+    width: 60%;
+}
+.footer__datos__icono{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin: 0% 2%;
+}
+.footer__datos__p{
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 5px;
+}
+.icono{
+    color: white;
+    font-size: 1.6rem;
+}
+/*Fin de footer*/
+/*Inicio pagina empresa*/
+.pagEmpresa__titulo {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: 430px;
+    font-size: 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-left: 0px;
+    border-right: 0px;
+
+}
+
+.pagEmpresa__imagen {
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: 200px;
+}
+
+.pagEmpresa__imagen__img {
+    height: 600px;
+    width: 950px;
+}
+
+.pagEmpresa__parrafo {
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 18px;
+}
+
+.pagEmpresa__enlace {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 380px;
+    overflow: hidden;
+
+}
+
+.pagEmpresa__enlace__button {
+    float: left;
+    margin-left: 50px;
+    font-size: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+}
+
+/*Fin pagina empresa*/
+/*Inicio pagina recetas*/
+.pagRecetas__titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.pagRecetas1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2BDE0;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.pagRecetas__receta1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right:2%;
+}
+
+.pagRecetas__texto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    text-align: justify;
+    padding: 0% 2%;
+    color: black;
+    font-size: 1rem;
+}
+.pagRecetas2__texto__titulo{
+    font-size: 1.6rem;
+    align-items: flex-start;
+}
+.pagRecetas__texto__link{
+    text-decoration: none;
+    color: black;
+    padding-top: 2%;
+}
+.pagRecetas__receta1__imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pagRecetas__imagen {
+    height: 300px;
+    width: 300px;
+}
+
+.pagRecetas2 {
+    display: inline-block;
+    margin-top: 60px;
+    background-color: #A7EFF1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pagRecetas__receta2 {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.pagRecetas2__imagen {
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.pagRecetas2__texto {
+    height: auto;
+    width: 880px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*Fin pagina empresa*/
+/*Inicio pagina contacto*/
+.contacto {
+    display: inline-block;
+    background-color: #F2BDE0;
+    width: 800px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+.contacto__div {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.contacto__div__imagen {
+    height: 400px;
+    width: 400px;
+}
+
+.contacto__div__formulario {
+    height: 400px;
+    text-align: justify;
+}
+
+.contacto__div--titulo {
+    font-size: 18px;
+    padding-left: 50px;
+    color: black;
+}
+
+.contacto__div__formulario__espacio {
+    padding-top: 15px;
+
+}
+
+.contacto__div__formulario__espacio__input {
+    width: 100%;
+    border: 2px solid;
+    height: 35px;
+    background-color: white;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid #f82595;
+}
+
+.contacto__div__formulario__espacio__input--mensaje {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100px;
+    width: 100%;
+    border: 2px solid #f82595;
+    background-color: white;
+    font-size: 18px;
+}
+
+.contacto__div__formulario__espacio--info {
+    display: inline-block;
+}
+
+.contacto__div__formulario__espacio--enviar {
+    width: 100%;
+    height: 30px;
+    border: 2px solid #f82595;
+    background-color: white;
+    font-size: 18px;
+}
+
+.mapa {
+    display: inline-block;
+    margin-top: 50px
+}
+
+.mapa__diseño {
+    margin-left: 270px;
+    border: 2px solid #f82595;
+    width: 800px;
+    height: 400px;
+}
+
+/*Fin pagina contacto*/
+/*Inicio pagina productos*/
+.pastasTitulo {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    text-align: left;
+    background-color: #F2BDE0;
+}
+
+.pastasTitulo__h2 {
+    padding-left: 55px;
+    padding-top: 10px;
+    font-size: 70px;
+}
+
+.pastasProductos {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+.pastasProductos__x {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    background-color: #F2BDE0;
+    border: 2px solid #f82595;
+    height: 500px;
+    width: 324px;
+    text-align: center;
+}
+
+.pastasProductos__x__imagenes {
+    width: 300px;
+    height: 300px;
+}
+
+.pastasProductos__titulo__producto {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.pastasProductos__texto__producto {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.pastasProductos__precio__producto {
+    padding-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+/*Fin pagina productos*/
+/*media cueris*/
+@media screen and (min-width: 0px) and (max-width: 767px){
+    .header{
+        flex-direction: column;
+        padding: 1%;           
+    }
+    .header__logo{
+        margin-left: 0%;
+    }
+    .header__logo__imagen{
+        width: 80px;
+        height: 80px;
+    }
+    .header__logo__titulo{
+        font-size: 2rem;
+    }
+    .header__nav{
+        gap: 5px;
+        margin-top: 1%;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__nav__ul__li a{
+        padding-left: 10px;
+        font-size: 1rem;
+    }
+    .busqueda{
+        width: 95%;
+        align-items: center;
+        justify-content: center;
+    }
+    .busqueda__imput{
+        width: 80%;
+    }
+    .busqueda__boton{
+        width: 25%;
+    }
+    /*inicio carrusel*/
+    .carrusel{
+        margin-top: 20px;
+    }
+    .carrusel__productos__imagen__enlace{
+        width: 150px;
+        height: 150px;
+        margin: 7% 0%;
+    }
+    /*fin carrusel*/
+    /*inicio productos*/
+    .productos{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .productos__descripcion{
+        margin-right: 0%;
+        margin-bottom: 3%;
+    }
+    .productos__descripcion__titulo{
+        margin-top: 2%;
+    }
+    .productos__descripcion__texto{
+        padding: 0% 4%;
+    }
+    .productos__descripcion__link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2%;
+    }
+    .productos__imagen__imagen{
+        height: 360px;
+        width: 360px;
+    }
+    /*fin productos*/
+    /*inicio empresa*/
+    .empresa{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .empresa__descripcion{
+        margin-left: 0%;
+        margin-bottom: 3%;
+    }
+    .empresa__descripcion__titulo{
+        margin-top: 2%;
+    }
+    .empresa__descripcion__texto{
+        padding: 0% 4%;
+    }
+    .empresa__descripcion__link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2%;
+    }
+    .empresa__imagen__imagen{
+        height: 500px;
+        width: 360px;
+    }
+    /*fin empresa*/
+    /*inicio footer*/
+    .footer{
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .footer__datos{
+        flex-direction: column;
+        justify-content: end;
+        align-items: flex-end;
+        margin-top: 0%;
+        width: 60%;
+    }  
+    .footer__datos__p{
+        margin-left: 0px;
+        padding: 5px;
+        font-size: 1rem;
+    } 
+    .icono{
+        font-size: 1.2rem
+    }
+    /*fin footer*/
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    /*inicio header*/
+    .header__logo__titulo{
+        text-align: center;
+    }
+    .header__nav__ul__li a{
+        padding-left: 20px;
+    }
+    /*inicio carrusel*/
+    .carrusel__productos__imagen__enlace{
+        width: 120px;
+        height: 120px;
+        margin: 3% 0%;
+    }
+    /*inicio productos*/
+    .productos__descripcion__link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2%;
+    }
+    .productos__descripcion__titulo{
+        margin-top: 2%;
+    }
+    /*inicio empresa*/
+    .empresa__descripcion__link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2%;
+    }
+    .empresa__descripcion__titulo{
+        margin-top: 2%;
+    }
+    .footer__datos{
+        width: 100%;
+    }  
+}

@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Inicio header*/
+header {
+    background-color: lightseagreen;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+
+    z-index: 10;
+
+}
+
+.imagenLogo {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    margin-left: 50px;
+    margin-top: 5px;
+    border-radius: 100px;
+}
+
+.titulo {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+nav {
+    float: right;
+    padding-top: 30px;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 30px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    height: 20px;
+}
+
+.busqueda {
+    float: right;
+    display: block;
+    padding-top: 15px;
+    padding-right: 40px;
+}
+
+.busqueda__input {
+    margin: 0;
+    padding: 0px;
+    padding-right: auto;
+    width: 200px;
+}
+
+.busqueda__boton {
+    width: 80px;
+}
+
+/*Fin header*/
+/*Inicio barra productos*/
+.productos {
+    display: inline-block;
+    margin-top: 40px;
+    width: 100%;
+    background-color: #F2BDE0;
+    ;
+}
+
+.productos__imagen {
+    display: inline-block;
+    padding-left: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.productos__imagen__enlace {
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.descripcion {
+    display: inline-block;
+    margin-top: 60px;
+    background-image: url(../imagenes/fondonoquis.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+
+.descripcion__bloque {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.descripcion__bloque__texto {
+    background-color: #FAEAD3;
+    opacity: .9;
+    margin-left: 40px;
+    height: auto;
+    width: 880px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.descripcion__bloque__imagen {
+    height: 300px;
+    width: 300px;
+
+}
+
+/*Fin barra productos*/
+/*Inicio barra empresa*/
+.empresa {
+    display: inline-block;
+    margin-top: 50px;
+    background-image: url(../imagenes/fondoempresa2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+
+.empresa__bloque {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.empresa__bloque__imagen {
+    height: 300px;
+    width: 250px;
+    margin-left: 40px;
+}
+
+
+.empresa__bloque__texto {
+    background-color: #FAEAD3;
+    opacity: .9;
+    margin-left: 10px;
+    height: auto;
+    width: 920px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.titulo2 {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+/*Fin barra empresa*/
+/*Inicio footer*/
+footer {
+    display: inline-block;
+    background-color: lightseagreen;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.footer__div {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.footer__div__imagen {
+    height: 100px;
+    width: 100px;
+    margin-left: 620px;
+    margin-right: auto;
+    border-radius: 120px;
+
+
+}
+
+.footer__div__datos {
+    display: inline-block;
+
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+/*Fin de footer*/
+/*Inicio pagina empresa*/
+.pagEmpresa__titulo {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: 430px;
+    font-size: 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-left: 0px;
+    border-right: 0px;
+
+}
+
+.pagEmpresa__imagen {
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: 200px;
+}
+
+.pagEmpresa__imagen__img {
+    height: 600px;
+    width: 950px;
+}
+
+.pagEmpresa__parrafo {
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 18px;
+}
+
+.pagEmpresa__enlace {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 380px;
+    overflow: hidden;
+
+}
+
+.pagEmpresa__enlace__button {
+    float: left;
+    margin-left: 50px;
+    font-size: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+}
+
+/*Fin pagina empresa*/
+/*Inicio pagina recetas*/
+.pagRecetas__titulo {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: 550px;
+    font-size: 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.pagRecetas1 {
+    display: inline-block;
+    background-color: #F2BDE0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pagRecetas__receta1 {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.pagRecetas__texto {
+    margin-left: 40px;
+    height: auto;
+    width: 880px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pagRecetas__imagen {
+    height: 300px;
+    width: 300px;
+}
+
+.pagRecetas2 {
+    display: inline-block;
+    margin-top: 60px;
+    background-color: #A7EFF1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pagRecetas__receta2 {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.pagRecetas2__imagen {
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.pagRecetas2__texto {
+    height: auto;
+    width: 880px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*Fin pagina empresa*/
+/*Inicio pagina contacto*/
+.contacto {
+    display: inline-block;
+    background-color: #F2BDE0;
+    width: 800px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+.contacto__div {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.contacto__div__imagen {
+    height: 400px;
+    width: 400px;
+}
+
+.contacto__div__formulario {
+    height: 400px;
+    text-align: justify;
+}
+
+.contacto__div--titulo {
+    font-size: 18px;
+    padding-left: 50px;
+    color: black;
+}
+
+.contacto__div__formulario__espacio {
+    padding-top: 15px;
+
+}
+
+.contacto__div__formulario__espacio__input {
+    width: 100%;
+    border: 2px solid;
+    height: 35px;
+    background-color: white;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid #f82595;
+}
+
+.contacto__div__formulario__espacio__input--mensaje {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100px;
+    width: 100%;
+    border: 2px solid #f82595;
+    background-color: white;
+    font-size: 18px;
+}
+
+.contacto__div__formulario__espacio--info {
+    display: inline-block;
+}
+
+.contacto__div__formulario__espacio--enviar {
+    width: 100%;
+    height: 30px;
+    border: 2px solid #f82595;
+    background-color: white;
+    font-size: 18px;
+}
+
+.mapa {
+    display: inline-block;
+    margin-top: 50px
+}
+
+.mapa__diseño {
+    margin-left: 270px;
+    border: 2px solid #f82595;
+    width: 800px;
+    height: 400px;
+}
+
+/*Fin pagina contacto*/
+/*Inicio pagina productos*/
+.pastasTitulo {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    text-align: left;
+    background-color: #F2BDE0;
+}
+
+.pastasTitulo__h2 {
+    padding-left: 55px;
+    padding-top: 10px;
+    font-size: 70px;
+}
+
+.pastasProductos {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+.pastasProductos__x {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    background-color: #F2BDE0;
+    border: 2px solid #f82595;
+    height: 500px;
+    width: 324px;
+    text-align: center;
+}
+
+.pastasProductos__x__imagenes {
+    width: 300px;
+    height: 300px;
+}
+
+.pastasProductos__titulo__producto {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.pastasProductos__texto__producto {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.pastasProductos__precio__producto {
+    padding-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+/*Fin pagina productos*/
