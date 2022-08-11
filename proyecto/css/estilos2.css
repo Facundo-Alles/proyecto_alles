@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .container__grid{
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "header"
                          "main"
@@ -561,9 +562,15 @@ main {
         align-items: center;
         justify-content: center;
     }
+    .header__nav__ul{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 2%;
+    }
     .header__nav__ul__li a{
         padding-left: 10px;
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     .busqueda{
         width: 95%;
@@ -599,9 +606,11 @@ main {
     }
     .productos__descripcion__titulo{
         margin-top: 2%;
+        font-size: 1.8rem;
     }
     .productos__descripcion__texto{
         padding: 0% 4%;
+        font-size: 1.4rem;
     }
     .productos__descripcion__link{
         display: flex;
@@ -627,9 +636,11 @@ main {
     }
     .empresa__descripcion__titulo{
         margin-top: 2%;
+        font-size: 2rem;
     }
     .empresa__descripcion__texto{
         padding: 0% 4%;
+        font-size: 1.4rem;
     }
     .empresa__descripcion__link{
         display: flex;
@@ -657,21 +668,30 @@ main {
     .footer__datos__p{
         margin-left: 0px;
         padding: 5px;
-        font-size: 1rem;
+        font-size: 1.2rem;
     } 
     .icono{
-        font-size: 1.2rem
+        font-size: 1.4rem
     }
     /*fin footer*/
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
     /*inicio header*/
+    .header__logo{
+        justify-content: center;
+        margin-left: 2%;
+    }
     .header__logo__titulo{
         text-align: center;
     }
+    .header__nav{
+        gap: 5px;
+        margin-right: 2%;
+    }
     .header__nav__ul__li a{
-        padding-left: 20px;
+        padding-left: 15px;
+        font-size: 1.3rem;
     }
     /*inicio carrusel*/
     .carrusel__productos__imagen__enlace{
@@ -688,6 +708,10 @@ main {
     }
     .productos__descripcion__titulo{
         margin-top: 2%;
+        font-size: 2rem;
+    }
+    .productos__descripcion__texto{
+        font-size: 1.2rem;
     }
     /*inicio empresa*/
     .empresa__descripcion__link{
@@ -698,8 +722,23 @@ main {
     }
     .empresa__descripcion__titulo{
         margin-top: 2%;
+        font-size: 2rem;
     }
+    .empresa__descripcion__texto{
+        font-size: 1.2rem;
+    }
+    /*inicio footer*/
     .footer__datos{
         width: 100%;
     }  
+    .footer__imagen__imagen{
+        height: 120px;
+        width: 120px;
+    }
+    .footer__datos__p{
+        font-size: 1.3rem;
+    }
+    .icono{
+        font-size: 1.8rem;
+    }
 }
