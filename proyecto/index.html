@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="./css/estilos2.css" />
   <script src="https://kit.fontawesome.com/2741f3a3b3.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <title>Pastas Roma</title>
 </head>
 
@@ -57,7 +59,7 @@
       </section> <!-- Fin carrusel de productos -->
       <!-- Descripcion de los productos -->
       <section class="productos">
-        <div class="productos__descripcion">
+        <div class="productos__descripcion" data-aos="fade-right">
           <h2 class="productos__descripcion__titulo">NUESTROS PRODUCTOS</h2>
           <p class="productos__descripcion__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
             alias
@@ -81,18 +83,18 @@
             <a class="productos__descripcion__link" href="./paginas/productos.html"> IR A PRODUCTOS >> </a>
           </p>
         </div>
-        <div class="productos__imagen">
+        <div class="productos__imagen" data-aos="fade-left">
           <a href="./paginas/productos.html"><img class="productos__imagen__imagen" src="imagenes/empresa3.jpeg"
               alt="singluten" /></a>
         </div>
       </section> <!-- Fin de seccion productos -->
       <!-- Inicio seccion de empresa -->
       <section class="empresa">
-        <div class="empresa__imagen">
+        <div class="empresa__imagen" data-aos="fade-right">
           <a href="./paginas/empresa.html"><img class="empresa__imagen__imagen" src="imagenes/fotoempresa.jpeg"
               alt="fotoempresa" /></a>
         </div>
-        <div class="empresa__descripcion">
+        <div class="empresa__descripcion" data-aos="fade-left">
           <h2 class="empresa__descripcion__titulo"> NUESTRA EMPRESA <br></h2>
           <p class="empresa__descripcion__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
             necessitatibus odio
@@ -136,6 +138,9 @@
       </div>
     </footer>
   </div>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
