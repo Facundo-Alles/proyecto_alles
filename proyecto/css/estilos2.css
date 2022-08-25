@@ -8,11 +8,12 @@
 
 .container__grid {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: "header"
-        "main"
-        "footer";
+    grid-template-columns: auto;
     grid-template-rows: auto;
+    grid-template-areas: "header"
+                         "main"
+                        "footer";
+    
 }
 
 /*Inicio header*/
@@ -47,47 +48,20 @@ nav ul li a{
 }
 /*Fin header*/
 
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
 /*Inicio carrusel de productos*/
-.carrusel {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 40px;
-    width: 100%;
-    height: auto;
+.contenedor__carrusel{
     background-color: #F2BDE0;
-    padding: 2% 1.5%;
+    margin-top: 40px;
 }
-
-.carrusel__producto__imagen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.carrusel__productos__imagen__enlace {
-    border-radius: 5px;
-    width: 200px;
-    height: 200px;
+.carrusel__productos{
+    padding-top: 1%;
 }
 
 /*Fin carrusel de productos*/
 /*Descripcion de los productos*/
 .productos {
-    display: flex;
-    flex-direction: row;
     margin-top: 40px;
-    width: 100%;
-    height: auto;
-    justify-content: space-between;
     background-image: url(../imagenes/fondonoquis.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -95,25 +69,14 @@ main {
 }
 
 .productos__descripcion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: #FAEAD3;
-    margin-right: 2%;
 }
 
 .productos__descripcion__titulo {
     font-size: 1.6rem;
 }
 
-.productos__descripcion__texto {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1%;
-    text-align: justify;
-    padding: 0% 2%;
-    color: black;
+.l {
     font-size: 1rem;
 }
 

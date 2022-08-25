@@ -51,33 +51,41 @@
     <main>
 
       <!-- Inicio carrusel de productos -->
-      <section class="carrusel">
-        <div class="carrusel__productos__imagen"><a href="./paginas/productos.html"><img
-              class="carrusel__productos__imagen__enlace" src="./imagenes/noquis.jpeg"></a>
+      <div class="container-fluid contenedor__carrusel">
+        <div class="d-flex justify-content-around carrusel__productos">
+          <div class="d-flex flex-column align-items-center">
+            <img class="rounded-circle" width="160" height="160" src="../proyecto/imagenes/ravioles.jpeg">
+            <h4>Ravioles</h2>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <img class="rounded-circle" width="160" height="160" src="../proyecto/imagenes/noquis.jpeg">
+            <h4>Ñoquis</h2>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <img class="rounded-circle" width="160" height="160" src="../proyecto/imagenes/panes.jpeg">
+            <h4>Panes</h2>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <img class="rounded-circle" width="160" height="160" src="../proyecto/imagenes/sorrentinos2.jpeg">
+            <h4>Sorrentinos</h2>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <img class="rounded-circle" width="160" height="160" src="../proyecto/imagenes/sombreros.jpeg">
+            <h4>Sombreros</h2>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <img class="rounded-circle" width="160" height="160" src="../proyecto/imagenes/alfajores.jpeg">
+            <h4>Alfajores</h2>
+          </div>
         </div>
-        <div class="carrusel__productos__imagen"><a href="./paginas/productos.html"><img
-              class="carrusel__productos__imagen__enlace" src="./imagenes/panes.jpeg"></a>
-        </div>
-        <div class="carrusel__productos__imagen"><a href="./paginas/productos.html"><img
-              class="carrusel__productos__imagen__enlace" src="./imagenes/sorrentinos2.jpeg"></a>
-        </div>
-        <div class="carrusel__productos__imagen"><a href="./paginas/productos.html"><img
-              class="carrusel__productos__imagen__enlace" src="./imagenes/ravioles.jpeg"></a>
-        </div>
-        <div class="carrusel__productos__imagen"><a href="./paginas/productos.html"><img
-              class="carrusel__productos__imagen__enlace" src="./imagenes/sombreros.jpeg"></a>
-        </div>
-        <div class="carrusel__productos__imagen"><a href="./paginas/productos.html"><img
-              class="carrusel__productos__imagen__enlace" src="./imagenes/alfajores.jpeg"></a>
-        </div>
-      </section>
+      </div>
       <!-- Fin carrusel de productos -->
 
       <!-- Descripcion de los productos -->
-      <section class="productos">
-        <div class="productos__descripcion" data-aos="fade-right">
-          <h2 class="productos__descripcion__titulo">NUESTROS PRODUCTOS</h2>
-          <p class="productos__descripcion__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+      <div class="row productos justify-content-between">
+        <div class="col-7 productos__descripcion">
+          <h2 class="featurette-heading productos__descripcion__titulo">NUESTROS PRODUCTOS</h2>
+          <p class="lead text-justify fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
             alias
             molestias error fuga quae.
             Laboriosam consectetur qui, ratione numquam error eos quae voluptas? Quo reiciendis aliquid eveniet
@@ -99,12 +107,12 @@
             <a class="productos__descripcion__link" href="./paginas/productos.html"> IR A PRODUCTOS >> </a>
           </p>
         </div>
-        <div class="productos__imagen" data-aos="fade-left">
-          <a href="./paginas/productos.html"><img class="productos__imagen__imagen" src="imagenes/empresa3.jpeg"
-              alt="singluten" /></a>
+        <div class="col-5">
+          <img class="productos__imagen__imagen" src="../proyecto/imagenes/empresa3.jpeg">
         </div>
-      </section>
+      </div>
       <!-- Fin de seccion productos -->
+      
 
       <!-- Inicio seccion de empresa -->
       <section class="empresa">
