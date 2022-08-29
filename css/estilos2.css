@@ -12,8 +12,7 @@
     grid-template-rows: auto;
     grid-template-areas: "header"
                          "main"
-                        "footer";
-    
+                         "footer";
 }
 
 /*Inicio header*/
@@ -48,6 +47,9 @@ nav ul li a{
 }
 /*Fin header*/
 
+.main{
+    grid-area: main;
+}
 
 /*Inicio carrusel de productos*/
 .contenedor__carrusel{
@@ -57,104 +59,43 @@ nav ul li a{
 .carrusel__productos{
     padding-top: 1%;
 }
-
 /*Fin carrusel de productos*/
-/*Descripcion de los productos*/
-.productos {
+
+/*Descripcion de los productos y empresa*/
+.descripcion{
     margin-top: 40px;
-    background-image: url(../imagenes/fondonoquis.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 2%;
+    padding: 2% 0%;
+    overflow-x: hidden;
 }
 
-.productos__descripcion {
-    background-color: #FAEAD3;
-}
-
-.productos__descripcion__titulo {
-    font-size: 1.6rem;
-}
-
-.l {
-    font-size: 1rem;
-}
-
-.productos__descripcion__link {
-    text-decoration: none;
-    color: black;
-    padding-top: 2%;
-}
-
-.productos__imagen {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.productos__imagen__imagen {
-    height: 300px;
-    width: 300px;
-}
-
-/*Fin descripcion de los productos*/
-/*Inicio descripcion de la empresa*/
-.empresa {
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
+.descripcion__imagen{
     width: 100%;
-    height: auto;
-    justify-content: space-between;
-    background-image: url(../imagenes/fondoempresa2.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 2%;
+    height: 100%;
 }
-
-.empresa__imagen {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.empresa__imagen__imagen {
-    height: 300px;
-    width: 250px;
-}
-
-.empresa__descripcion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.descripcion__texto{
     background-color: #FAEAD3;
-    margin-left: 2.5%;
-}
-
-.empresa__descripcion__titulo {
-    font-size: 1.6rem;
-}
-
-.empresa__descripcion__texto {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1%;
     text-align: justify;
-    padding: 0% 2%;
-    color: black;
-    font-size: 1rem;
+    padding: 0% 1%;
 }
-
-.empresa__descripcion__link {
+.descripcion__titulo__link{
     text-decoration: none;
     color: black;
-    padding-top: 2%;
 }
+/*Modificativos*/
+.fondo__productos{
+    background-image: url(../imagenes/fondoempresa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo__empresa{
+    background-image: url(../imagenes/fondoempresa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Fin descripcion de los productos y empresa*/
 
-/*Fin descripcion de la empresa*/
+
+
 /*inicio footer*/
 .footer {
     grid-area: footer;

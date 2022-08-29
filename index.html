@@ -20,72 +20,72 @@
 
   <div class="container__grid">
 
-    <header class=".container-fluid header d-flex justify-content-between align-items-center sticky-top">
+    <header class="header d-flex justify-content-between align-items-center sticky-top">
       <div class="animate__animated animate__zoomIn d-flex">
-        <a class="navbar-brand d-flex align-items-center header__logo" href="../proyecto/index.html">
-          <img src="../proyecto/imagenes/logo.jpeg" alt="" class="header__logo__imagen">
+        <a class="navbar-brand d-flex align-items-center header__logo" href="index.html">
+          <img src="./imagenes/logo.jpeg" alt="" class="header__logo__imagen">
           <h1 class="header__logo__titulo">Pastas Roma</h1>
         </a>
       </div>
       <nav class="navbar navbar-expand-lg navbar-light animate__animated animate__zoomIn header__nav">
         <ul class="navbar-nav d-flex align-items-center">
           <li class="nav-item">
-            <a class="nav-link text-white" href="../proyecto/index.html">Inicio</a>
+            <a class="nav-link text-white" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="../proyecto/paginas/productos.html">Productos</a>
+            <a class="nav-link text-white" href="./paginas/productos.html">Productos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="../proyecto/paginas/recetas.html">Recetas</a>
+            <a class="nav-link text-white" href="./paginas/recetas.html">Recetas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="../proyecto/paginas/empresa.html">Empresa</a>
+            <a class="nav-link text-white" href="./paginas/empresa.html">Empresa</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="../proyecto/paginas/contacto.html">Contacto</a>
+            <a class="nav-link text-white" href="./paginas/contacto.html">Contacto</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <main class="main">
 
       <!-- Inicio carrusel de productos -->
-      <div class="container-fluid contenedor__carrusel">
+      <div class="contenedor__carrusel">
         <div class="d-flex justify-content-around carrusel__productos">
           <div class="d-flex flex-column align-items-center">
-            <img class="rounded-circle" width="160" height="160" src="../proyecto/imagenes/ravioles.jpeg">
-            <h4>Ravioles</h2>
+            <img class="rounded-circle" width="160" height="160" src="./imagenes/ravioles.jpeg">
+            <h4>Ravioles</h4>
           </div>
           <div class="d-flex flex-column align-items-center">
-            <img class="rounded-circle" width="160" height="160" src="../proyecto/imagenes/noquis.jpeg">
-            <h4>Ñoquis</h2>
+            <img class="rounded-circle" width="160" height="160" src="./imagenes/noquis.jpeg">
+            <h4>Ñoquis</h4>
           </div>
           <div class="d-flex flex-column align-items-center">
-            <img class="rounded-circle" width="160" height="160" src="../proyecto/imagenes/panes.jpeg">
-            <h4>Panes</h2>
+            <img class="rounded-circle" width="160" height="160" src="./imagenes/panes.jpeg">
+            <h4>Panes</h4>
           </div>
           <div class="d-flex flex-column align-items-center">
-            <img class="rounded-circle" width="160" height="160" src="../proyecto/imagenes/sorrentinos2.jpeg">
-            <h4>Sorrentinos</h2>
+            <img class="rounded-circle" width="160" height="160" src="./imagenes/sorrentinos2.jpeg">
+            <h4>Sorrentinos</h4>
           </div>
           <div class="d-flex flex-column align-items-center">
-            <img class="rounded-circle" width="160" height="160" src="../proyecto/imagenes/sombreros.jpeg">
-            <h4>Sombreros</h2>
+            <img class="rounded-circle" width="160" height="160" src="./imagenes/sombreros.jpeg">
+            <h4>Sombreros</h4>
           </div>
           <div class="d-flex flex-column align-items-center">
-            <img class="rounded-circle" width="160" height="160" src="../proyecto/imagenes/alfajores.jpeg">
-            <h4>Alfajores</h2>
+            <img class="rounded-circle" width="160" height="160" src="./imagenes/alfajores.jpeg">
+            <h4>Alfajores</h4>
           </div>
         </div>
       </div>
       <!-- Fin carrusel de productos -->
 
-      <!-- Descripcion de los productos -->
-      <div class="row productos justify-content-between">
-        <div class="col-7 productos__descripcion">
-          <h2 class="featurette-heading productos__descripcion__titulo">NUESTROS PRODUCTOS</h2>
-          <p class="lead text-justify fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+      <!-- Inicio descripcion de los productos -->
+      <div class="descripcion fondo__productos d-flex justify-content-evenly align-items-center">
+        <div class="col-8 d-flex flex-column align-items-center descripcion__texto">
+          <a class="descripcion__titulo__link" href="./paginas/productos.html"><h2 class="">NUESTROS PRODUCTOS</h2></a>
+          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
             alias
             molestias error fuga quae.
             Laboriosam consectetur qui, ratione numquam error eos quae voluptas? Quo reiciendis aliquid eveniet
@@ -102,27 +102,26 @@
             Lorem
             ipsum dolor sit amet consectetur adipisicing elit. Ab veniam corrupti hic dignissimos enim maxime tempora
             earum, minima dolorem quod nihil eos incidunt laudantium cumque. Amet voluptate aperiam perferendis
-            dolorum.
-            Lorem ipsum
-            <a class="productos__descripcion__link" href="./paginas/productos.html"> IR A PRODUCTOS >> </a>
+            doloru Lorem ipsum
           </p>
         </div>
-        <div class="col-5">
-          <img class="productos__imagen__imagen" src="../proyecto/imagenes/empresa3.jpeg">
-        </div>
-      </div>
-      <!-- Fin de seccion productos -->
-      
-
-      <!-- Inicio seccion de empresa -->
-      <section class="empresa">
-        <div class="empresa__imagen" data-aos="fade-right">
-          <a href="./paginas/empresa.html"><img class="empresa__imagen__imagen" src="imagenes/fotoempresa.jpeg"
+        <div class="col-3">
+          <a href="./paginas/empresa.html"><img class="descripcion__imagen" src="./imagenes/empresa3.jpeg"
               alt="fotoempresa" /></a>
         </div>
-        <div class="empresa__descripcion" data-aos="fade-left">
-          <h2 class="empresa__descripcion__titulo"> NUESTRA EMPRESA <br></h2>
-          <p class="empresa__descripcion__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+      </div>
+      <!-- Fin de descrpcion productos -->
+
+
+      <!-- Inicio descripcion de empresa -->
+      <div class="descripcion fondo__empresa d-flex justify-content-evenly align-items-center">
+        <div class="col-3 cont">
+          <a href="./paginas/empresa.html"><img class="descripcion__imagen" src="./imagenes/fondoempresa.jpg"
+              alt="fotoempresa" /></a>
+        </div>
+        <div class="col-8 d-flex flex-column align-items-center descripcion__texto" >
+          <a class="descripcion__titulo__link" href="./paginas/productos.html"><h2 class=""> NUESTRA EMPRESA</h2></a>
+          <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
             necessitatibus odio
             placeat
             molestias inventore! Sint, incidunt deleniti accusamus repudiandae doloribus culpa nulla harum
@@ -139,11 +138,10 @@
             consequatur, ex magnam magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eaque,
             illo debitis dignissimos dolor animi nobis aut nesciunt ad deserunt autem necessitatibus eveniet quis,
             sapiente ab, placeat sunt? Libero, delectus?
-            <a class="empresa__descripcion__link" href="./paginas/empresa.html"> LEER MAS >> </a>
           </p>
         </div>
-      </section>
-      <!-- Fin seccion de empresa -->
+      </div>
+      <!-- Fin descripcion de empresa -->
 
     </main>
 
@@ -153,22 +151,22 @@
       <ul class="nav justify-content-center d-flex align-items-center footer__datos">
         <li class="nav-item d-flex align-items-center">
           <i class="icono text-white fa-solid fa-phone"></i>
-          <a class="nav-link footer__datos__p text-white" href="../proyecto/paginas/contacto.html">Telefono- 000-000-000
-            /</a>
+          <a class="nav-link footer__datos__p text-white" href="./paginas/contacto.html">Telefono- 000-000-000
+            </a>
         </li>
         <li class="nav-item d-flex align-items-center">
           <i class="icono text-white fa-brands fa-instagram"></i>
-          <a class="nav-link footer__datos__p text-white" href="../proyecto/paginas/contacto.html">Instagram- @Random
-            /</a>
+          <a class="nav-link footer__datos__p text-white" href="./paginas/contacto.html">Instagram- @Random
+            </a>
         </li>
         <li class="nav-item d-flex align-items-center">
           <i class="icono text-white fa-brands fa-square-facebook"></i>
-          <a class="nav-link footer__datos__p text-white" href="../proyecto/paginas/contacto.html">Facebook- Random_01
-            /</a>
+          <a class="nav-link footer__datos__p text-white" href="./paginas/contacto.html">Facebook- Random_01
+            </a>
         </li>
         <li class="nav-item d-flex align-items-center">
           <i class="icono text-white fa-solid fa-envelope"></i>
-          <a class="nav-link footer__datos__p text-white" href="../proyecto/paginas/contacto.html">Contacto</a>
+          <a class="nav-link footer__datos__p text-white" href="./paginas/contacto.html">Contacto</a>
         </li>
       </ul>
     </footer>
