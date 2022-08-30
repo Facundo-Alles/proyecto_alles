@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +12,8 @@
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas: "header"
-                         "main"
-                         "footer";
+        "main"
+        "footer";
 }
 
 /*Inicio header*/
@@ -43,63 +44,75 @@
     padding-right: 2%;
     align-items: center;
 }
-nav ul li a{
+
+nav ul li a {
     font-size: 1.3rem;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     margin-right: 2%;
 }
 
 /*Fin header*/
 
-.main{
+.main {
     grid-area: main;
 }
 
 /*Inicio carrusel de productos*/
-.contenedor__carrusel{
+.contenedor__carrusel {
     background-color: #F2BDE0;
     margin-top: 40px;
 }
-.carrusel__productos{
+
+.carrusel__productos {
     padding-top: 1%;
 }
+
 /*Fin carrusel de productos*/
 
 /*Descripcion de los productos y empresa*/
-.descripcion{
+.descripcion {
     margin-top: 40px;
     padding: 2% 0%;
     overflow-x: hidden;
 }
 
-.descripcion__imagen{
-    width: 100%;
-    height: 100%;
-}
-.descripcion__texto{
+.descripcion__texto {
     background-color: #FAEAD3;
     text-align: justify;
     padding: 0% 1%;
 }
-.descripcion__titulo__link{
+
+.descripcion__titulo__link {
     text-decoration: none;
     color: black;
 }
+
 /*Modificativos*/
-.fondo__productos{
+.fondo__productos {
     background-image: url(../imagenes/fondonoquis.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
-.fondo__empresa{
+
+.fondo__empresa {
     background-image: url(../imagenes/fondoempresa2.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
+
+.descripcion__imagen__empresa {
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion__imagen__productos {
+    width: 100%;
+    height: 100%;
+}
+
 /*Fin descripcion de los productos y empresa*/
-
-
 
 /*inicio footer*/
 .footer {
@@ -422,114 +435,82 @@ nav ul li a{
 /*media cueris*/
 @media screen and (min-width: 0px) and (max-width: 767px) {
 
+    .header__logo {
+        gap: 10px;
+        padding-left: 1%;
+    }
 
     .header__logo__imagen {
         width: 80px;
         height: 80px;
     }
 
+    .header__logo__titulo {
+        font-size: 1.6rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
     /*inicio carrusel*/
-.carrusel__productos__imagen{
-    width: 200px;
-    height: 200px;
-}
+    .contenedor__carrusel {
+        margin-top: 20px;
+        display: none;
+    }
+
+    .carrusel__productos__imagen {
+        width: 50px;
+        height: 50px;
+    }
+
+    .carrusel__productos__titulo {
+        font-size: 10px;
+    }
     /*fin carrusel*/
-    /*inicio productos*/
-    .productos {
+    
+    /*inicio productos y empresa*/
+    .descripcion {
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-top: 20px;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
-    .productos__descripcion {
-        margin-right: 0%;
-        margin-bottom: 3%;
+    .descripcion__imagen__empresa {
+        margin-bottom: 2%;
     }
 
-    .productos__descripcion__titulo {
+    .descripcion__imagen__productos {
         margin-top: 2%;
-        font-size: 1.8rem;
     }
-
-    .productos__descripcion__texto {
-        padding: 0% 4%;
-        font-size: 1.4rem;
-    }
-
-    .productos__descripcion__link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 2%;
-    }
-
-    .productos__imagen__imagen {
-        height: 360px;
-        width: 360px;
-    }
-
-    /*fin productos*/
-    /*inicio empresa*/
-    .empresa {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .empresa__descripcion {
-        margin-left: 0%;
-        margin-bottom: 3%;
-    }
-
-    .empresa__descripcion__titulo {
-        margin-top: 2%;
-        font-size: 2rem;
-    }
-
-    .empresa__descripcion__texto {
-        padding: 0% 4%;
-        font-size: 1.4rem;
-    }
-
-    .empresa__descripcion__link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 2%;
-    }
-
-    .empresa__imagen__imagen {
-        height: 500px;
-        width: 360px;
-    }
-
-    /*fin empresa*/
+    /*fin productos y empresa*/
+    
     /*inicio footer*/
     .footer {
         flex-direction: row;
         margin-top: 20px;
+        padding: 2%;
+    }
+    .footer__imagen__imagen {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
     }
 
     .footer__datos {
-        flex-direction: column;
-        justify-content: end;
-        align-items: flex-end;
         margin-top: 0%;
-        width: 60%;
     }
-
+    
     .footer__datos__p {
-        margin-left: 0px;
-        padding: 5px;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
-
+    
     .icono {
-        font-size: 1.4rem
+        font-size: 1rem;
     }
-
     /*fin footer*/
 }
 
