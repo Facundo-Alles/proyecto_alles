@@ -23,7 +23,7 @@
 
 .header__logo {
     gap: 20px;
-    margin-left: 8%;
+    padding-left: 2%;
 }
 
 .header__logo__imagen {
@@ -39,12 +39,17 @@
 }
 
 .header__nav {
-    gap: 10px;
-    margin-right: 3%;
+    justify-content: flex-end;
+    padding-right: 2%;
+    align-items: center;
 }
 nav ul li a{
     font-size: 1.3rem;
 }
+.navbar-toggler{
+    margin-right: 2%;
+}
+
 /*Fin header*/
 
 .main{
@@ -83,12 +88,12 @@ nav ul li a{
 }
 /*Modificativos*/
 .fondo__productos{
-    background-image: url(../imagenes/fondoempresa.jpg);
+    background-image: url(../imagenes/fondonoquis.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 .fondo__empresa{
-    background-image: url(../imagenes/fondoempresa.jpg);
+    background-image: url(../imagenes/fondoempresa2.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -416,69 +421,18 @@ nav ul li a{
 /*Fin pagina productos*/
 /*media cueris*/
 @media screen and (min-width: 0px) and (max-width: 767px) {
-    .header {
-        flex-direction: column;
-        padding: 1%;
-    }
 
-    .header__logo {
-        margin-left: 0%;
-    }
 
     .header__logo__imagen {
         width: 80px;
         height: 80px;
     }
 
-    .header__logo__titulo {
-        font-size: 2rem;
-    }
-
-    .header__nav {
-        gap: 5px;
-        margin-top: 1%;
-        margin-right: 0px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .header__nav__ul {
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        margin-bottom: 2%;
-    }
-
-    .header__nav__ul__li a {
-        padding-left: 10px;
-        font-size: 1.4rem;
-    }
-
-    .busqueda {
-        width: 95%;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .busqueda__imput {
-        width: 80%;
-    }
-
-    .busqueda__boton {
-        width: 25%;
-    }
-
     /*inicio carrusel*/
-    .carrusel {
-        margin-top: 20px;
-    }
-
-    .carrusel__productos__imagen__enlace {
-        width: 150px;
-        height: 150px;
-        margin: 7% 0%;
-    }
-
+.carrusel__productos__imagen{
+    width: 200px;
+    height: 200px;
+}
     /*fin carrusel*/
     /*inicio productos*/
     .productos {
