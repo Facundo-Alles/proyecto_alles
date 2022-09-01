@@ -63,7 +63,7 @@ nav ul li a {
 
 .contenedor__carrusel {
     background-color: #F2BDE0;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 .carrusel__productos {
@@ -79,7 +79,7 @@ nav ul li a {
 
 /*Descripcion de los productos y empresa*/
 .descripcion {
-    margin-top: 20px;
+    margin-top: 2%;
     padding: 2% 0%;
     overflow-x: hidden;
 }
@@ -124,7 +124,7 @@ nav ul li a {
 .footer {
     grid-area: footer;
     background-color: lightseagreen;
-    margin-top: 20px;
+    margin-top: 2%;
     padding: 1% 0%;
     flex-direction: column;
     justify-content: center;
@@ -150,6 +150,30 @@ nav ul li a {
 }
 
 /*Fin de footer*/
+
+/*Inicio pagina productos*/
+
+.pastasTitulo__contenedor__pastas{
+    background-color: #F2BDE0;
+    margin-top: 2%;
+}
+.pastasTitulo__contenedor__antojosDulces{
+    background-color: #F2BDE0;
+}
+
+.pastasTitulo__h2 {
+    padding-left: 3%;
+    font-size: 70px;
+}
+.contenedor__productos{
+    margin-top: 2%;
+}
+.contenedor__productos__productos{
+    margin-bottom: 2%;
+}
+
+/*Fin pagina productos*/
+
 /*Inicio pagina empresa*/
 .pagEmpresa__titulo {
     display: inline-block;
@@ -163,7 +187,6 @@ nav ul li a {
     border-color: black;
     border-left: 0px;
     border-right: 0px;
-
 }
 
 .pagEmpresa__imagen {
@@ -381,65 +404,6 @@ nav ul li a {
 }
 
 /*Fin pagina contacto*/
-/*Inicio pagina productos*/
-.pastasTitulo {
-    display: inline-block;
-    width: 100%;
-    height: 100px;
-    margin-top: 50px;
-    text-align: left;
-    background-color: #F2BDE0;
-}
-
-.pastasTitulo__h2 {
-    padding-left: 55px;
-    padding-top: 10px;
-    font-size: 70px;
-}
-
-.pastasProductos {
-    display: inline-block;
-    width: 100%;
-    overflow: hidden;
-    margin-top: 50px;
-    padding-left: 50px;
-}
-
-.pastasProductos__x {
-    margin: 10px;
-    padding: 10px;
-    float: left;
-    background-color: #F2BDE0;
-    border: 2px solid #f82595;
-    height: 500px;
-    width: 324px;
-    text-align: center;
-}
-
-.pastasProductos__x__imagenes {
-    width: 300px;
-    height: 300px;
-}
-
-.pastasProductos__titulo__producto {
-    padding-top: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 20px;
-}
-
-.pastasProductos__texto__producto {
-    font-size: 15px;
-    padding-top: 10px;
-}
-
-.pastasProductos__precio__producto {
-    padding-top: 10px;
-    font-size: 20px;
-    color: black;
-}
-
-/*Fin pagina productos*/
 
 /*MEDIA CUERIS*/
 @media screen and (min-width: 0px) and (max-width: 767px) {
@@ -531,6 +495,27 @@ nav ul li a {
     }
 
     /*fin footer*/
+
+    /*Inicio pagina productos*/
+    
+    .pastasTitulo__contenedor__pastas{
+        margin-top: 20px;
+    }
+    
+    .pastasTitulo__h2{
+        display: flex;
+        justify-content: center;
+        padding-left: 0%;
+        font-size: 40px;
+    }
+    
+    .contenedor__productos{
+        margin-top: 20px;
+    }
+    .contenedor__productos__productos{
+        margin-bottom: 20px;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
