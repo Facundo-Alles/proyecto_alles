@@ -1,0 +1,83 @@
+/*Inicio pagina contacto*/
+.contacto {
+    display: inline-block;
+    background-color: #F2BDE0;
+    width: 800px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+.contacto__div {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.contacto__div__imagen {
+    height: 400px;
+    width: 400px;
+}
+
+.contacto__div__formulario {
+    height: 400px;
+    text-align: justify;
+}
+
+.contacto__div--titulo {
+    font-size: 18px;
+    padding-left: 50px;
+    color: black;
+}
+
+.contacto__div__formulario__espacio {
+    padding-top: 15px;
+
+}
+
+.contacto__div__formulario__espacio__input {
+    width: 100%;
+    border: 2px solid;
+    height: 35px;
+    background-color: white;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid #f82595;
+}
+
+.contacto__div__formulario__espacio__input--mensaje {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100px;
+    width: 100%;
+    border: 2px solid #f82595;
+    background-color: white;
+    font-size: 18px;
+}
+
+.contacto__div__formulario__espacio--info {
+    display: inline-block;
+}
+
+.contacto__div__formulario__espacio--enviar {
+    width: 100%;
+    height: 30px;
+    border: 2px solid #f82595;
+    background-color: white;
+    font-size: 18px;
+}
+
+.mapa {
+    display: inline-block;
+    margin-top: 50px
+}
+
+.mapa__diseño {
+    margin-left: 270px;
+    border: 2px solid #f82595;
+    width: 800px;
+    height: 400px;
+}
+
+/*Fin pagina contacto*/

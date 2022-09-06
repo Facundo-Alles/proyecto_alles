@@ -1,0 +1,29 @@
+/*inicio footer*/
+.footer {
+    grid-area: footer;
+    background-color: lightseagreen;
+    margin-top: 2%;
+    padding: 1% 0%;
+    flex-direction: column;
+    justify-content: center;
+
+    .footer__imagen__imagen {
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+    }
+
+    .footer__datos {
+     margin-top: 0.6%;
+     align-items: center;
+    
+        .footer__datos__p {
+         font-size: 1.2rem;
+        }
+
+        .icono {
+         font-size: 1.6rem;
+        }
+    }
+}    
+/*Fin de footer*/

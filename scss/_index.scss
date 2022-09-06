@@ -1,0 +1,53 @@
+/*Inicio carrusel de productos*/
+.contenedor__carrusel {
+    background-color: #F2BDE0;
+    margin-top: 2%;
+    
+    .carrusel__productos {
+     padding-top: 1%;
+     
+        .carrusel__productos__imagen {
+         width: 170px;
+         height: 170px;
+        }
+    }    
+}
+/*Fin carrusel de productos*/
+
+/*Descripcion de los productos y empresa*/
+.descripcion {
+    margin-top: 2%;
+    padding: 2% 0%;
+    overflow-x: hidden;
+
+    .fondo__productos {
+     background-image: url(../imagenes/fondonoquis.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+    }
+    .fondo__empresa {
+        background-image: url(../imagenes/fondoempresa2.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+        .descripcion__texto {
+         background-color: #FAEAD3;
+         text-align: justify;
+         padding: 0% 1%;
+    
+            .descripcion__titulo__link {
+             text-decoration: none;
+             color: black;
+            }
+        }
+
+        .descripcion__imagen__productos {
+             width: 100%;
+             height: 100%;
+        }   
+        .descripcion__imagen__empresa {
+            width: 100%;
+            height: 100%;
+        } 
+}
+/*Fin descripcion de los productos y empresa*/

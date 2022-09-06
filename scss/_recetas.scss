@@ -1,0 +1,94 @@
+/*Inicio pagina recetas*/
+.pagRecetas__titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.pagRecetas1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2BDE0;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.pagRecetas__receta1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+}
+
+.pagRecetas__texto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    text-align: justify;
+    padding: 0% 2%;
+    color: black;
+    font-size: 1rem;
+}
+
+.pagRecetas2__texto__titulo {
+    font-size: 1.6rem;
+    align-items: flex-start;
+}
+
+.pagRecetas__texto__link {
+    text-decoration: none;
+    color: black;
+    padding-top: 2%;
+}
+
+.pagRecetas__receta1__imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pagRecetas__imagen {
+    height: 300px;
+    width: 300px;
+}
+
+.pagRecetas2 {
+    display: inline-block;
+    margin-top: 60px;
+    background-color: #A7EFF1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pagRecetas__receta2 {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.pagRecetas2__imagen {
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.pagRecetas2__texto {
+    height: auto;
+    width: 880px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*Fin pagina empresa*/
