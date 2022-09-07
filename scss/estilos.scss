@@ -1,4 +1,6 @@
 @import "_fonts.scss";
+@import "_variables";
+@import "_reset";
 @import "_header";
 @import "_footer";
 @import "_index";
@@ -8,12 +10,7 @@
 @import "_contacto";
 @import "_mediaQueris";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'PT Serif', serif;
-}
+
 
 .container__grid {
     display: grid;
