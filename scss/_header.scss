@@ -23,9 +23,7 @@
     }    
 }
 .header__nav {
-    justify-content: flex-end;
-    padding-right: 2%;
-    align-items: center;
+    @include flexend-right-center;
 
     nav ul li a {
      font-size: 1.3rem;

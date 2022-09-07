@@ -8,9 +8,9 @@
     justify-content: center;
 
     .footer__imagen__imagen {
-     height: 100px;
-     width: 100px;
-     border-radius: 50%;
+     height: map-get($imagenFooter, alto);
+     width: map-get($imagenFooter, ancho);
+     border-radius: map-get($imagenFooter, radio);
     }
 
     .footer__datos {

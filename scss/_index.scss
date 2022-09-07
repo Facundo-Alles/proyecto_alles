@@ -46,8 +46,7 @@
              height: 100%;
         }   
         .descripcion__imagen__empresa {
-            width: 100%;
-            height: 100%;
+            @extend .descripcion__imagen__productos
         } 
 }
 /*Fin descripcion de los productos y empresa*/
