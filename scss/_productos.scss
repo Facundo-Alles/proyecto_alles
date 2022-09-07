@@ -1,20 +1,19 @@
 /*Inicio pagina productos*/
 .pastasTitulo__contenedor__pastas{
-    background-color: #F2BDE0;
+    background-color: $color-rosado;
     margin-top: 2%;
 }
 .pastasTitulo__contenedor__antojosDulces{
-    background-color: #F2BDE0;
+    background-color: $color-rosado;
 }
-
-.pastasTitulo__h2 {
-    padding-left: 3%;
-    font-size: 70px;
-}
+    .pastasTitulo__h2 {
+     padding-left: 3%;
+     font-size: 70px;
+    }
 .contenedor__productos{
     margin-top: 2%;
-}
-.contenedor__productos__productos{
-    margin-bottom: 2%;
+    .contenedor__productos__productos{
+     margin-bottom: 2%;
+    }
 }
 /*Fin pagina productos*/

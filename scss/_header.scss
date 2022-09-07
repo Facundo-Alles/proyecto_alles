@@ -1,7 +1,7 @@
 /*Inicio header*/
 .header {
     grid-area: header;
-    background-color: lightseagreen;
+    background-color: $color-verdeazul;
 
     .header__logo {
       gap: 20px;

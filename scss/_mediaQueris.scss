@@ -5,15 +5,16 @@
     .header__logo {
         gap: 10px;
         padding-left: 1%;
-    }
 
-    .header__logo__imagen {
-        width: 80px;
-        height: 80px;
-    }
+        .header__logo__imagen {
+         width: 80px;
+         height: 80px;
+        }
 
-    .header__logo__titulo {
-        font-size: 1.6rem;
+        .header__logo__titulo {
+         font-size: 1.6rem;
+        }
+    
     }
 
     nav ul li a {
@@ -26,17 +27,16 @@
     .contenedor__carrusel {
         margin-top: 20px;
         display: none;
-    }
 
-    .carrusel__productos__imagen {
-        width: 50px;
-        height: 50px;
-    }
+        .carrusel__productos__imagen {
+         width: 50px;
+         height: 50px;
+        }
 
-    .carrusel__productos__titulo {
-        font-size: 10px;
+        .carrusel__productos__titulo {
+         font-size: 10px;
+        }
     }
-
     /*fin carrusel*/
 
     /*inicio productos y empresa*/
@@ -47,16 +47,15 @@
         margin-top: 20px;
         padding-left: 2%;
         padding-right: 2%;
-    }
 
-    .descripcion__imagen__productos {
-        padding-top: 2%;
-    }
+        .descripcion__imagen__productos {
+         padding-top: 2%;
+        }
 
-    .descripcion__imagen__empresa {
-        padding-bottom: 2%;
+        .descripcion__imagen__empresa {
+         padding-bottom: 2%;
+        }
     }
-
     /*fin productos y empresa*/
 
     /*inicio footer*/
@@ -65,28 +64,26 @@
         margin-top: 20px;
         padding: 2%;
         justify-content: space-evenly;
-    }
 
-    .footer__imagen__imagen {
-        height: 80px;
-        width: 80px;
-        border-radius: 50%;
-    }
+        .footer__imagen__imagen {
+         height: 80px;
+         width: 80px;
+         border-radius: 50%;
 
-    .footer__datos {
-        margin-top: 0%;
-        flex-direction: column;
-        align-items: flex-start;
-    }
+        .footer__datos {
+         margin-top: 0%;
+         flex-direction: column;
+         align-items: flex-start;
 
-    .footer__datos__p {
-        font-size: 1rem;
-    }
+            .footer__datos__p {
+             font-size: 1rem;
+            }
 
-    .icono {
-        font-size: 1rem;
-    }
-
+            .icono {
+             font-size: 1rem;
+            }
+        }
+    }   
     /*fin footer*/
 
     /*Inicio pagina productos*/
@@ -117,18 +114,18 @@
     .header__logo {
         gap: 20px;
         padding-left: 2%;
-    }
+    
+        .header__logo__imagen {
+         width: 120px;
+         height: 120px;
+         border-radius: 100px;
+        }
 
-    .header__logo__imagen {
-        width: 120px;
-        height: 120px;
-        border-radius: 100px;
-    }
+        .header__logo__titulo {
+         font-size: 2.3rem;
+        }
 
-    .header__logo__titulo {
-        font-size: 2.3rem;
-    }
-
+    }    
     nav ul li a {
         font-size: 1.2rem;
     }
@@ -138,17 +135,16 @@
     /*inicio carrusel*/
     .contenedor__carrusel {
         margin-top: 20px;
-    }
 
-    .carrusel__productos__imagen {
-        width: 125px;
-        height: 125px;
-    }
+        .carrusel__productos__imagen {
+         width: 125px;
+         height: 125px;
+        }
 
-    .carrusel__productos__titulo {
-        font-size: 1.1rem;
+        .carrusel__productos__titulo {
+         font-size: 1.1rem;
+        }
     }
-
     /*Fin Carrusel*/
 
     /*inicio productos y empresa*/
@@ -161,20 +157,20 @@
     /*inicio footer*/
     .footer {
         margin-top: 20px;
-    }
 
-    .footer__imagen__imagen {
-        height: 100px;
-        width: 100px;
-    }
+        .footer__imagen__imagen {
+         height: 100px;
+         width: 100px;
+        }
 
-    .footer__datos__p {
-        font-size: 1rem;
-    }
+            .footer__datos__p {
+             font-size: 1rem;
+            }
 
-    .icono {
-        font-size: 1.3rem;
+            .icono {
+             font-size: 1.3rem;
+            }
+        }
     }
-
     /*Fin footer*/
 }
