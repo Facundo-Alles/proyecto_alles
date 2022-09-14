@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-    content="Somos una empresa familiar con más de 3 años en el mercado que busca llevar el sabor de lo artesanal sin gluten, a la mesa de todos los uruguayos">
-  <meta name="keywords" content="PASTAS, SIN GLUTEN, SALUDABLE, GLUTEN FREE, CELÍACO, ALIMENTO">
+        content="Somos una empresa familiar con más de 3 años en el mercado que busca llevar el sabor de lo artesanal sin gluten, a la mesa de todos los uruguayos">
+    <meta name="keywords" content="PASTAS, SIN GLUTEN, SALUDABLE, GLUTEN FREE, CELÍACO, ALIMENTO">
     <link rel="short icon" href="../imagenes/Logo.jpeg" />
-    <link rel="stylesheet" href="../css/estilos2.css" />
+    <link rel="stylesheet" href="../css/estilos.css" />
     <script src="https://kit.fontawesome.com/2741f3a3b3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -57,44 +57,42 @@
 
         <main class="main">
 
-            <section>
+            <section class="container-fluid d-flex justify-content-center contenedor__contacto">
                 <!-- Inicio Formulario -->
-                <div class="contacto">
-                    <div class="contacto__div">
-                        <img class="contacto__div__imagen" src="../imagenes/noquisembazados.jpeg" alt="noquisembazados">
+                <div class="d-flex contacto justify-content-between">
+                    <div class="contacto__imagen">
+                        <img class="contacto__imagen__imagen" src="../imagenes/noquisembazados.jpeg"
+                            alt="noquisembazados">
                     </div>
                     <div class="contacto__div">
-                        <form class="contacto__div__formulario">
-                            <div class="contacto__div--titulo">
+                        <form
+                            class="contacto__div__formulario d-flex justify-content-evenly align-items-center flex-column">
+                            <div class="contacto__div__formulario__titulo">
                                 <h2>CONTACTANOS</h2>
                             </div>
-                            <div class="contacto__div__formulario__espacio">
-                                <input class="contacto__div__formulario__espacio__input" type="text"
+                            <div class="contacto__div__formulario__contenedor">
+                                <input class="contacto__div__formulario__contenedor__input" type="text"
                                     name="nombre_apellido" placeholder="Nombre y Apellido*" required />
                             </div>
-                            <div class="contacto__div__formulario__espacio">
-                                <label for="email">
-                                    <input class="contacto__div__formulario__espacio__input" type="email" name="email"
-                                        placeholder="example@gmail.com*" required>
-                                </label>
+                            <div class="contacto__div__formulario__contenedor">
+                                <input class="contacto__div__formulario__contenedor__input" type="email" name="email"
+                                    placeholder="example@gmail.com*" required>
                             </div>
-                            <div class="contacto__div__formulario__espacio">
-                                <input class="contacto__div__formulario__espacio__input" type="tel" name="phone"
+                            <div class="contacto__div__formulario__contenedor">
+                                <input class="contacto__div__formulario__contenedor__input" type="tel" name="phone"
                                     placeholder="N° Telefono*" required>
                             </div>
-                            <div class="contacto__div__formulario__espacio">
-                                <label for="Dejanos tu Mensaje">
-                                    <textarea class="contacto__div__formulario__espacio__input--mensaje"
-                                        placeholder="Dejanos tu Mensaje"></textarea>
-                                </label>
+                            <div class="contacto__div__formulario__contenedor">
+                                <textarea class="contacto__div__formulario__contenedor__input--mensaje"
+                                    placeholder="Dejanos tu Mensaje"></textarea>
                             </div>
-                            <div class="contacto__div__formulario__espacio">
-                                <p class="contacto__div__formulario__espacio--info">¿Queres recibir info sobre nuevos
+                            <div class="contacto__div__formulario__contenedor d-flex align-items-baseline justify-content-evenly">
+                                <p class="contacto__div__formulario__contenedor__info">¿Queres recibir info sobre nuevos
                                     productos? </p>
                                 <input type="checkbox" name="acepta">
                             </div>
-                            <div class="contacto__div__formulario__espacio">
-                                <input class="contacto__div__formulario__espacio--enviar" type="submit" name="enviar"
+                            <div class="contacto__div__formulario__contenedor">
+                                <input class="contacto__div__formulario__contenedor__input" type="submit" name="enviar"
                                     placeholder="Enviar">
                             </div>
                         </form>
@@ -103,7 +101,7 @@
             </section> <!-- Fin formulario -->
             <section>
                 <!-- Inicio mapa -->
-                <div class="mapa">
+                <div class="mapa container-fluid d-flex justify-content-center align-items-center">
                     <iframe class="mapa__diseño"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d818.619262946043!2d-56.27389167080585!3d-34.84423869811891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a1d437a68d726b%3A0x87988980bfceb2a2!2sMaracana%2C%2012800%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1658269046676!5m2!1ses-419!2suy"
                         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -111,31 +109,31 @@
             </section> <!-- Fin mapa -->
         </main>
         <footer class="d-flex align-items-center footer">
-            <div class="footer__imagen"><a href="../index.html"><img class="footer__imagen__imagen"
-                        src="../imagenes/logo.jpeg" alt="Producto" /></a>
+            <div class="footer__imagen"><a href="../index.html"><img class="footer__imagen__imagen" src="../imagenes/logo.jpeg"
+                  alt="Producto" /></a>
             </div>
-            <ul class="nav justify-content-center d-flex footer__datos">
-                <li class="nav-item d-flex align-items-center">
-                    <i class="icono text-white fa-solid fa-phone"></i>
-                    <a class="nav-link footer__datos__p text-white" href="contacto.html">Telefono- 000-000-000
-                    </a>
-                </li>
-                <li class="nav-item d-flex align-items-center">
-                    <i class="icono text-white fa-brands fa-instagram"></i>
-                    <a class="nav-link footer__datos__p text-white" href="contacto.html">Instagram- @Random
-                    </a>
-                </li>
-                <li class="nav-item d-flex align-items-center">
-                    <i class="icono text-white fa-brands fa-square-facebook"></i>
-                    <a class="nav-link footer__datos__p text-white" href="contacto.html">Facebook- Random_01
-                    </a>
-                </li>
-                <li class="nav-item d-flex align-items-center">
-                    <i class="icono text-white fa-solid fa-envelope"></i>
-                    <a class="nav-link footer__datos__p text-white" href="contacto.html">Contacto</a>
-                </li>
+            <ul class="nav d-flex footer__datos">
+              <li class="nav-item d-flex align-items-center">
+                <i class="icono text-white fa-solid fa-phone"></i>
+                <a class="nav-link footer__datos__p text-white" href="contacto.html">094 509 779
+                </a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <i class="icono text-white fa-brands fa-instagram"></i>
+                <a class="nav-link footer__datos__p text-white" href="https://www.instagram.com/pastas.sin.gluten.uy/?hl=es" target="_blank">@pastas.sin.gluten.uy
+                </a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <i class="icono text-white fa-brands fa-square-facebook"></i>
+                <a class="nav-link footer__datos__p text-white" href="https://www.facebook.com/roma.pastas.54" target="_blank">Roma Pastas
+                </a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <i class="icono text-white fa-solid fa-envelope"></i>
+                <a class="nav-link footer__datos__p text-white" href="contacto.html">Contacto</a>
+              </li>
             </ul>
-        </footer>
+          </footer>
 
         <script>
             AOS.init();

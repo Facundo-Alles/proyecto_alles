@@ -1,53 +1,31 @@
 /*Inicio pagina empresa*/
-.pagEmpresa__titulo {
-    display: inline-block;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: auto;
-    margin-left: 430px;
-    font-size: 35px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    border-left: 0px;
-    border-right: 0px;
+.h1empresa__contenedor{
+    @extend .pastasTitulo__contenedor__pastas
+}
+    .h1empresa__titulo{
+     @extend .pastasTitulo__h2;
+    }
+
+.empresa{
+    margin-top: 2%;
+
+    .empresa__imagen{
+     width: 70%;
+     height: auto;
+    }
+
+    .empresa__texto{
+     width: 70%;
+     text-align: justify;
+    }
 }
 
-.pagEmpresa__imagen {
-    display: inline-block;
-    margin-bottom: 50px;
-    margin-right: auto;
-    margin-left: 200px;
+.empresa__enlaces{
+    width: 70%;
+    margin-top: 0.5%;
+    
+    .empresa__enlaces__texto{
+      font-size: 1.1rem;
+    }
 }
-
-.pagEmpresa__imagen__img {
-    height: 600px;
-    width: 950px;
-}
-
-.pagEmpresa__parrafo {
-    display: inline-block;
-    margin-left: 200px;
-    margin-right: 200px;
-    font-size: 18px;
-}
-
-.pagEmpresa__enlace {
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 380px;
-    overflow: hidden;
-
-}
-
-.pagEmpresa__enlace__button {
-    float: left;
-    margin-left: 50px;
-    font-size: 25px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    padding: 5px;
-}
-
 /*Fin pagina empresa*/

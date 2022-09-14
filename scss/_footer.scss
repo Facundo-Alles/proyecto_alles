@@ -3,19 +3,20 @@
     grid-area: footer;
     background-color: $color-verdeazul;
     margin-top: 2%;
-    padding: 1% 0%;
     flex-direction: column;
     justify-content: center;
 
-    .footer__imagen__imagen {
-     height: map-get($imagenFooter, alto);
-     width: map-get($imagenFooter, ancho);
-     border-radius: map-get($imagenFooter, radio);
-    }
-
+    .footer__imagen{
+        padding-top: 1%;
+        
+        .footer__imagen__imagen {
+         height: map-get($imagenFooter, alto);
+         width: map-get($imagenFooter, ancho);
+         border-radius: map-get($imagenFooter, radio);
+        }
+    } 
     .footer__datos {
      margin-top: 0.6%;
-     align-items: center;
     
         .footer__datos__p {
          font-size: 1.2rem;
@@ -25,5 +26,7 @@
          font-size: 1.6rem;
         }
     }
-}    
+}   
+
+
 /*Fin de footer*/
