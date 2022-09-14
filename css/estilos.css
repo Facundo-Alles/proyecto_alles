@@ -210,7 +210,7 @@
       height: 80px; }
     .header__logo .header__logo__titulo {
       font-size: 1.6rem; }
-  nav ul li a {
+  ul li a {
     font-size: 1rem; }
   /*Fin header*/
   /*inicio carrusel*/
@@ -238,6 +238,7 @@
   /*fin productos y empresa*/
   /*inicio footer*/
   .footer {
+    display: none;
     flex-direction: row;
     margin-top: 20px;
     padding: 2%;
@@ -297,7 +298,8 @@
   /*Fin productos y empresa*/
   /*inicio footer*/
   .footer {
-    margin-top: 20px; }
+    margin-top: 20px;
+    display: none; }
     .footer .footer__imagen__imagen {
       height: 100px;
       width: 100px; }
