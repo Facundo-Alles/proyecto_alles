@@ -10,6 +10,8 @@
   <meta name="keywords" content="PASTAS, SIN GLUTEN, SALUDABLE, GLUTEN FREE, CELÍACO, ALIMENTO">
   <link rel="short icon" href="./imagenes/logo.jpeg" />
   <link rel="stylesheet" href="./css/estilos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
   <script src="https://kit.fontawesome.com/2741f3a3b3.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -59,36 +61,28 @@
     <main class="main">
 
       <!-- Inicio carrusel de productos -->
-
-      <div class="contenedor__carrusel">
-        <div class="d-flex justify-content-around carrusel__productos">
-          <div class="d-flex flex-column align-items-center">
-            <img class="rounded-circle carrusel__productos__imagen" src="./imagenes/ravioles.jpeg">
-            <h4 class="carrusel__productos__titulo">Ravioles</h4>
+      <div class="contenedor__carrusel container-fluid"> 
+        <div class="multiple-items">
+            <div class="slide">
+              <img class="rounded imagen__carrusel" src="./imagenes/noquis.jpeg">
+            </div>
+            <div class="slide">
+              <img class="rounded imagen__carrusel" src="./imagenes/ravioles.jpeg">
+            </div>
+            <div class="slide">
+              <img class="rounded imagen__carrusel" src="./imagenes/sorrentinos2.jpeg">
+            </div>
+            <div class="slide">
+              <img class="rounded imagen__carrusel" src="./imagenes/sombreros.jpeg">
+            </div>
+            <div class="slide">
+              <img class="rounded imagen__carrusel" src="./imagenes/panes.jpeg">
+            </div>
+            <div class="slide">
+              <img class="rounded imagen__carrusel" src="./imagenes/alfajores.jpeg">
+            </div>
           </div>
-          <div class="d-flex flex-column align-items-center">
-            <img class="rounded-circle carrusel__productos__imagen" src="./imagenes/noquis.jpeg">
-            <h4 class="carrusel__productos__titulo">Ñoquis</h4>
-          </div>
-          <div class="d-flex flex-column align-items-center">
-            <img class="rounded-circle carrusel__productos__imagen" src="./imagenes/panes.jpeg">
-            <h4 class="carrusel__productos__titulo">Panes</h4>
-          </div>
-          <div class="d-flex flex-column align-items-center">
-            <img class="rounded-circle carrusel__productos__imagen" src="./imagenes/sorrentinos2.jpeg">
-            <h4 class="carrusel__productos__titulo">Sorrentinos</h4>
-          </div>
-          <div class="d-flex flex-column align-items-center">
-            <img class="rounded-circle carrusel__productos__imagen" src="./imagenes/sombreros.jpeg">
-            <h4 class="carrusel__productos__titulo">Sombreros</h4>
-          </div>
-          <div class="d-flex flex-column align-items-center">
-            <img class="rounded-circle carrusel__productos__imagen" width="160" height="160"
-              src="./imagenes/alfajores.jpeg">
-            <h4 class="carrusel__productos__titulo">Alfajores</h4>
-          </div>
-        </div>
-      </div>
+        </div> 
       <!-- Fin carrusel de productos -->
 
       <!-- Inicio descripcion de los productos -->
@@ -182,7 +176,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+$('.multiple-items').slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  arrows: true,
+  autoplay: true,
+  autoplaySpeed: 4000
+})
+    </script>
   </div>
+
 </body>
 
 </html>
