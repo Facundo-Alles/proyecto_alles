@@ -79,30 +79,27 @@
 
 /*Fin carrusel de productos*/
 /*Descripcion de los productos y empresa*/
-.descripcion {
-  margin-top: 2%;
-  padding: 2% 0%;
-  overflow-x: hidden; }
-
-.fondo__productos, .fondo__empresa {
-  background-image: url(../imagenes/fondonoquis.jpg);
-  background-size: cover;
-  background-attachment: fixed; }
-
-.fondo__empresa {
-  background-image: url(../imagenes/fondoempresa2.jpg); }
-
-.descripcion__texto {
-  background-color: #FAEAD3;
-  text-align: justify;
-  padding: 0% 1%; }
-  .descripcion__texto .descripcion__titulo__link {
-    text-decoration: none;
-    color: black; }
-
-.descripcion__imagen__productos, .descripcion__imagen__empresa, .receta__imagen {
-  width: 100%;
-  height: 100%; }
+.contenedor__descripcion {
+  margin-top: 2%; }
+  .contenedor__descripcion .descripcion {
+    overflow-x: hidden;
+    width: 88%; }
+    .contenedor__descripcion .descripcion .descripcion__texto__productos, .contenedor__descripcion .descripcion .descripcion__texto__empresa {
+      text-align: justify;
+      justify-content: center;
+      padding: 0% 1%;
+      width: 68%;
+      background-color: #9FE9EA; }
+    .contenedor__descripcion .descripcion .descripcion__texto__empresa {
+      background-color: #F2BDE0; }
+    .contenedor__descripcion .descripcion .descripcion__titulo__link {
+      text-decoration: none;
+      color: black; }
+    .contenedor__descripcion .descripcion .descripcion__imagen {
+      width: 30%; }
+      .contenedor__descripcion .descripcion .descripcion__imagen .descripcion__imagen__imagen {
+        width: 100%;
+        height: 100%; }
 
 /*Fin descripcion de los productos y empresa*/
 .prueba {
@@ -149,6 +146,35 @@
 
 /*Fin pagina empresa*/
 /*Inicio pagina recetas*/
+.contenedor__receta {
+  margin-top: 2%; }
+  .contenedor__receta .receta {
+    overflow-x: hidden;
+    width: 90%; }
+    .contenedor__receta .receta .receta1__texto, .contenedor__receta .receta .receta2__texto {
+      text-align: justify;
+      justify-content: center;
+      padding: 0% 1%;
+      width: 69%;
+      background-color: #9FE9EA; }
+    .contenedor__receta .receta .receta2__texto {
+      background-color: #F2BDE0;
+      width: 65%; }
+    .contenedor__receta .receta .receta__texto__texto {
+      display: flex;
+      flex-direction: column; }
+      .contenedor__receta .receta .receta__texto__texto .receta__texto__texto__link {
+        text-decoration: none;
+        color: black;
+        padding-top: 1%; }
+    .contenedor__receta .receta .receta1__imagen {
+      width: 31%; }
+    .contenedor__receta .receta .receta2__imagen {
+      width: 35%; }
+    .contenedor__receta .receta .receta__imagen__imagen {
+      width: 100%;
+      height: 100%; }
+
 .receta1, .receta2 {
   background-color: #F2BDE0;
   margin-top: 2%; }
@@ -243,7 +269,7 @@
     margin-top: 20px;
     padding-left: 2%;
     padding-right: 2%; }
-    .descripcion .descripcion__imagen__productos, .descripcion .descripcion__imagen__empresa, .descripcion .receta__imagen {
+    .descripcion .descripcion__imagen__productos, .descripcion .receta__imagen {
       padding-top: 2%; }
     .descripcion .descripcion__imagen__empresa {
       padding-bottom: 2%;
@@ -367,7 +393,7 @@
   .descripcion {
     margin-top: 20px;
     padding: 2%; }
-    .descripcion .descripcion__imagen__productos, .descripcion .descripcion__imagen__empresa, .descripcion .receta__imagen {
+    .descripcion .descripcion__imagen__productos, .descripcion .receta__imagen {
       display: none; }
     .descripcion .descripcion__imagen__empresa {
       display: none; }

@@ -86,12 +86,13 @@
       <!-- Fin carrusel de productos -->
 
       <!-- Inicio descripcion de los productos -->
-      <div class="descripcion fondo__productos d-flex justify-content-evenly align-items-center ">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 d-flex flex-column align-items-center descripcion__texto">
+      <div class="contenedor__descripcion d-flex justify-content-center align-items-center">
+      <div class="descripcion d-flex justify-content-between">
+        <div class="d-flex flex-column align-items-center descripcion__texto__productos">
           <a class="descripcion__titulo__link" href="./paginas/productos.html">
-            <h2 class="">NUESTROS PRODUCTOS</h2>
+            <h2>NUESTROS PRODUCTOS</h2>
           </a>
-          <p class="">Pastas roma brinda productos de calidad, 100 % libres de gluten, pero lo más importante,
+          <p>Pastas roma brinda productos de calidad, 100 % libres de gluten, pero lo más importante,
             elaborados artesanalmente. Comprendemos la complejidad de consumir comida sin tacc por lo cual, ponemos
             especial detalle a la manipulación de nuestros productos para evitar la contaminación cruzada.
             Desde los diferentes tipos de harinas que utilizamos para elaborar la masa hasta los rellenos de la más alta
@@ -106,24 +107,26 @@
             Chía, los cuáles son una opción muy recomendada para comer con cualquier tipo de acompañamiento
           </p>
         </div>
-        <div class="col-xs-12 col-sm-0 col-md-0 col-lg-3">
-          <a href="./paginas/productos.html"><img class="descripcion__imagen__productos" src="./imagenes/empresa3.jpeg"
+        <div class="descripcion__imagen">
+          <a href="./paginas/productos.html"><img class="descripcion__imagen__imagen" src="./imagenes/empresa3.jpeg" loading="lazy"
               alt="fotoempresa" /></a>
         </div>
       </div>
+    </div>
       <!-- Fin de descrpcion productos -->
 
       <!-- Inicio descripcion de empresa -->
-      <div class="descripcion fondo__empresa d-flex justify-content-evenly align-items-center ">
-        <div class="col-xs-12 col-sm-0 col-md-0 col-lg-3">
-          <a href="./paginas/empresa.html"><img class="descripcion__imagen__empresa"
+    <div class="contenedor__descripcion d-flex justify-content-center align-items-center">
+      <div class="descripcion d-flex justify-content-between ">
+        <div class="descripcion__imagen">
+          <a href="./paginas/empresa.html"><img class="descripcion__imagen__imagen" loading="lazy"
               src="./imagenes/noquisembazados.jpeg" alt="fotoempresa" /></a>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 d-flex flex-column align-items-center descripcion__texto">
+        <div class="d-flex flex-column align-items-center descripcion__texto__empresa">
           <a class="descripcion__titulo__link" href="./paginas/productos.html">
-            <h2 class=""> NUESTRA EMPRESA</h2>
+            <h2> NUESTRA EMPRESA</h2>
           </a>
-          <p class="">A comienzos del año 2020 tomamos una de las decisiones más importantes de nuestras vidas, intentar
+          <p>A comienzos del año 2020 tomamos una de las decisiones más importantes de nuestras vidas, intentar
             expandir nuestros productos 100 % libres de gluten . Fue todo un desafío debido a que las dietas libres de
             gluten son de las más complejas ,y lograr que la gente confié en nuestros alimentos lo veíamos como algo
             imposible. Pero nunca nos rendimos ya que no era un simple comestible más, era una cuestión de salud.
@@ -137,6 +140,7 @@
           </p>
         </div>
       </div>
+    </div>
       <!-- Fin descripcion de empresa -->
 
     </main>
@@ -186,7 +190,7 @@ $('.multiple-items').slick({
   slidesToScroll: 1,
   arrows: true,
   autoplay: true,
-  autoplaySpeed: 4000
+  autoplaySpeed: 3000
 })
     </script>
   </div>
