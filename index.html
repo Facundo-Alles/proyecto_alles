@@ -29,7 +29,7 @@
       class="navbar navbar-expand-lg navbar-light header d-flex justify-content-between align-items-center sticky-top">
       <div class="container-fluid d-flex animate__animated animate__zoomIn">
         <a class="navbar-brand header__logo d-flex align-items-center" href="index.html">
-          <img src="./imagenes/logo.jpeg" alt="" class="header__logo__imagen">
+          <img src="./imagenes/logo.jpeg" alt="logo" class="header__logo__imagen">
           <h1 class="header__logo__titulo">Pastas Roma</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -39,19 +39,19 @@
         <div class="collapse navbar-collapse header__nav" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-white" href="index.html">Inicio</a>
+              <a class="nav-link text-white hvr-grow" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="./paginas/productos.html">Productos</a>
+              <a class="nav-link text-white hvr-grow" href="./paginas/productos.html">Productos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="./paginas/recetas.html">Recetas</a>
+              <a class="nav-link text-white hvr-grow" href="./paginas/recetas.html">Recetas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="./paginas/empresa.html">Empresa</a>
+              <a class="nav-link text-white hvr-grow" href="./paginas/empresa.html">Empresa</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="./paginas/contacto.html">Contacto</a>
+              <a class="nav-link text-white hvr-grow" href="./paginas/contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -64,22 +64,22 @@
       <div class="contenedor__carrusel container-fluid"> 
         <div class="multiple-items">
             <div class="slide">
-              <img class="rounded imagen__carrusel" src="./imagenes/noquis.jpeg">
+              <a href="./paginas/productos.html"><img class="rounded imagen__carrusel" src="./imagenes/noquis.jpeg" alt="ñoquis"></a>
             </div>
             <div class="slide">
-              <img class="rounded imagen__carrusel" src="./imagenes/ravioles.jpeg">
+              <a href="./paginas/productos.html"><img class="rounded imagen__carrusel" src="./imagenes/ravioles.jpeg" alt="ravioles"></a>
             </div>
             <div class="slide">
-              <img class="rounded imagen__carrusel" src="./imagenes/sorrentinos2.jpeg">
+              <a href="./paginas/productos.html"><img class="rounded imagen__carrusel" src="./imagenes/sorrentinos2.jpeg" alt="sorrentinos"></a>
             </div>
             <div class="slide">
-              <img class="rounded imagen__carrusel" src="./imagenes/sombreros.jpeg">
+              <a href="./paginas/productos.html"><img class="rounded imagen__carrusel" src="./imagenes/sombreros.jpeg" alt="capeletis"></a>
             </div>
             <div class="slide">
-              <img class="rounded imagen__carrusel" src="./imagenes/panes.jpeg">
+              <a href="./paginas/productos.html"><img class="rounded imagen__carrusel" src="./imagenes/panes.jpeg" alt="panes"></a>
             </div>
             <div class="slide">
-              <img class="rounded imagen__carrusel" src="./imagenes/alfajores.jpeg">
+              <a href="./paginas/productos.html"><img class="rounded imagen__carrusel" src="./imagenes/alfajores.jpeg" alt="alfajores"></a>
             </div>
           </div>
         </div> 
@@ -109,7 +109,7 @@
         </div>
         <div class="descripcion__imagen">
           <a href="./paginas/productos.html"><img class="descripcion__imagen__imagen" src="./imagenes/empresa3.jpeg" loading="lazy"
-              alt="fotoempresa" /></a>
+              alt="sin gluten" /></a>
         </div>
       </div>
     </div>
@@ -147,28 +147,28 @@
 
     <footer class="d-flex align-items-center footer">
       <div class="footer__imagen"><a href="index.html"><img class="footer__imagen__imagen" src="./imagenes/logo.jpeg"
-            alt="Producto" /></a>
+            alt="logo" /></a>
       </div>
       <ul class="nav d-flex footer__datos">
-        <li class="nav-item d-flex align-items-center">
-          <i class="icono text-white fa-solid fa-phone"></i>
+        <li class="nav-item d-flex align-items-center hvr-icon-grow">
+          <i class="icono text-white fa-solid fa-phone hvr-icon"></i>
           <a class="nav-link footer__datos__p text-white" href="./paginas/contacto.html">094 509 779
           </a>
         </li>
-        <li class="nav-item d-flex align-items-center">
-          <i class="icono text-white fa-brands fa-instagram"></i>
+        <li class="nav-item d-flex align-items-center hvr-icon-grow">
+          <i class="icono text-white fa-brands fa-instagram hvr-icon"></i>
           <a class="nav-link footer__datos__p text-white" href="https://www.instagram.com/pastas.sin.gluten.uy/?hl=es"
             target="_blank">@pastas.sin.gluten.uy
           </a>
         </li>
-        <li class="nav-item d-flex align-items-center">
-          <i class="icono text-white fa-brands fa-square-facebook"></i>
+        <li class="nav-item d-flex align-items-center hvr-icon-grow">
+          <i class="icono text-white fa-brands fa-square-facebook hvr-icon"></i>
           <a class="nav-link footer__datos__p text-white" href="https://www.facebook.com/roma.pastas.54"
             target="_blank">Roma Pastas
           </a>
         </li>
-        <li class="nav-item d-flex align-items-center">
-          <i class="icono text-white fa-solid fa-envelope"></i>
+        <li class="nav-item d-flex align-items-center hvr-icon-grow">
+          <i class="icono text-white fa-solid fa-envelope hvr-icon"></i>
           <a class="nav-link footer__datos__p text-white" href="./paginas/contacto.html">Contacto</a>
         </li>
       </ul>
@@ -190,7 +190,34 @@ $('.multiple-items').slick({
   slidesToScroll: 1,
   arrows: true,
   autoplay: true,
-  autoplaySpeed: 3000
+  autoplaySpeed: 3000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 })
     </script>
   </div>

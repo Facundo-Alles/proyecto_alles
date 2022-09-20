@@ -53,36 +53,4 @@
     }
 }
 
-
-
-
-.receta1{
-    background-color: $color-rosado;
-    margin-top: 2%;
-}
-.receta2{
-    @extend .receta1;
-    background-color: #9FE9EA;
-}
-
-.receta__imagen{
-    @extend .descripcion__imagen__productos
-}
-
-.receta__texto{
-    text-align: justify;
-    padding: 1%;
-
-    .receta__texto__texto {
-     display: flex;
-     flex-direction: column;
-    
-
-        .receta__texto__texto__link {
-         text-decoration: none;
-         color: black;
-         padding-top: 1%;
-        }
-    }
-}
 /*Fin pagina empresa*/
