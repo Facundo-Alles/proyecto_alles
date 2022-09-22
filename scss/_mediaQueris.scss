@@ -3,46 +3,50 @@
 
     /*inicio Header*/
     .header {
-        
+
         .header__logo {
-         gap: 15px;
-         padding-left: 1%;
+            gap: 15px;
+            padding-left: 1%;
 
             .header__logo__imagen {
-             width: 80px;
-             height: 80px;
+                width: 80px;
+                height: 80px;
             }
 
             .header__logo__titulo {
-             font-size: 1.6rem;
+                font-size: 1.6rem;
             }
-            
+
         }
-        .navbar-toggler{
+
+        .navbar-toggler {
             margin-right: 1%;
         }
     }
-    .header__nav{
+
+    .header__nav {
 
         ul li a {
-         font-size: 1rem;
+            font-size: 1rem;
         }
     }
+
     /*Fin header*/
 
     /*inicio carrusel*/
-    .contenedor__carrusel{
+    .contenedor__carrusel {
         margin-top: 20px;
-    
-        .multiple-items{
+
+        .multiple-items {
             max-width: 300px;
             padding: 2%;
         }
     }
+
     /*fin carrusel*/
 
     /*inicio productos y empresa*/
-    .contenedor__descripcion{
+    .contenedor__descripcion {
         margin-top: 20px;
         flex-direction: column;
 
@@ -51,21 +55,23 @@
             align-items: center;
             justify-content: center;
             width: 90%;
-    
+
             .descripcion__texto__productos {
                 width: 100%;
                 margin-bottom: 20px;
             }
-            .descripcion__texto__empresa{
+
+            .descripcion__texto__empresa {
                 margin-top: 20px;
                 margin-bottom: 0px;
             }
-            
-            .descripcion__imagen{
+
+            .descripcion__imagen {
                 width: 100%;
             }
         }
     }
+
     /*fin productos y empresa*/
 
     /*inicio footer*/
@@ -79,119 +85,126 @@
         .footer__imagen {
 
             .footer__imagen__imagen {
-             height: 80px;
-             width: 80px;
-             border-radius: 50%;
+                height: 80px;
+                width: 80px;
+                border-radius: 50%;
             }
         }
+
         .footer__datos {
-         margin-top: 0%;
-         flex-direction: column;
-         align-items: flex-start;
+            margin-top: 0%;
+            flex-direction: column;
+            align-items: flex-start;
 
             .footer__datos__p {
-             font-size: 1rem;
+                font-size: 1rem;
             }
 
             .icono {
-             font-size: 1rem;
+                font-size: 1rem;
             }
         }
-    }   
+    }
+
     /*fin footer*/
 
     /*Inicio pagina productos*/
-    
-    .pastasTitulo__contenedor__pastas{
+
+    .pastasTitulo__contenedor__pastas {
         margin-top: 20px;
     }
-    
-    .pastasTitulo__h2{
+
+    .pastasTitulo__h2 {
         display: flex;
         justify-content: center;
         padding-left: 0%;
         font-size: 40px;
     }
-    
-    .contenedor__productos{
+
+    .contenedor__productos {
         margin-top: 20px;
 
-        .contenedor__productos__productos{
-         margin-bottom: 20px;
+        .contenedor__productos__productos {
+            margin-bottom: 20px;
         }
     }
 
     /*Fin pagina productos*/
-    
+
     /*Inicio pagina Recetas*/
-    .contenedor__receta{
+    .contenedor__receta {
         margin-top: 20px;
         flex-direction: column;
-    
-        .receta{
+
+        .receta {
             flex-direction: column;
             width: 90%;
-            
-            .receta1__texto{
+
+            .receta1__texto {
                 width: 100%;
             }
-            .receta2__texto{
+
+            .receta2__texto {
                 width: 100%;
             }
-    
-            .receta1__imagen{
+
+            .receta1__imagen {
                 width: 100%;
             }
-            .receta2__imagen{
+
+            .receta2__imagen {
                 width: 100%;
                 margin-bottom: 20px;
             }
-            
+
         }
     }
+
     /*Fin pagina Recetas*/
 
     /*Inicio pagina Empresa*/
 
-    .h1empresa__contenedor{
-  
-        .h1empresa__titulo{
+    .h1empresa__contenedor {
+
+        .h1empresa__titulo {
             display: flex;
             justify-content: center;
             padding-left: 0%;
             font-size: 38px;
         }
     }
-    .empresa{
+
+    .empresa {
         margin-top: 20px;
-    
-        .empresa__imagen{
-         width: 90%;
-         height: auto;
+
+        .empresa__imagen {
+            width: 90%;
+            height: auto;
         }
-    
-        .empresa__texto{
-         width: 90%;
-         text-align: justify;
+
+        .empresa__texto {
+            width: 90%;
+            text-align: justify;
         }
     }
-    
-    .empresa__enlaces{
+
+    .empresa__enlaces {
         flex-direction: column;
         margin-top: 0%;
-        
-        .empresa__enlaces__boton{
-         padding-top: 4%;
-        
-            .empresa__enlaces__texto{
-             font-size: 1.1rem;
+
+        .empresa__enlaces__boton {
+            padding-top: 4%;
+
+            .empresa__enlaces__texto {
+                font-size: 1.1rem;
             }
         }
     }
+
     /*Fin pagina Empresa*/
 
     /*Inicio pagina Contacto*/
-    .contenedor__contacto{
+    .contenedor__contacto {
         margin-top: 20px;
 
         .contacto {
@@ -199,26 +212,30 @@
             flex-direction: column;
             justify-content: center;
 
-            .contacto__imagen{
+            .contacto__imagen {
                 width: 100%;
 
             }
-            .contacto__div{
+
+            .contacto__div {
                 width: 100%;
 
-                .contacto__div__formulario{
+                .contacto__div__formulario {
                     padding: 2%;
                     justify-content: center;
-                    div{
-                     padding: 1% 0%;
+
+                    div {
+                        padding: 1% 0%;
                     }
-            }   }
+                }
+            }
         }
     }
-    .mapa{
+
+    .mapa {
         margin-top: 20px;
 
-        .mapa__diseño{
+        .mapa__diseño {
             width: 90%;
             height: 200px;
         }
@@ -228,58 +245,100 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
     /*inicio header*/
-    .header{
+    .header {
 
         .header__logo {
-         gap: 20px;
-         padding-left: 2%;
-    
+            gap: 20px;
+            padding-left: 2%;
+
             .header__logo__imagen {
-             width: 120px;
-             height: 120px;
-             border-radius: 100px;
+                width: 120px;
+                height: 120px;
+                border-radius: 100px;
             }
 
             .header__logo__titulo {
-             font-size: 2.3rem;
+                font-size: 2.3rem;
             }
         }
-        .navbar-toggler{
+
+        .navbar-toggler {
             margin-right: 2%;
         }
-    }    
-    .header__nav{
-    
+    }
+
+    .header__nav {
+
         ul li a {
-         font-size: 1.2rem;
+            font-size: 1.2rem;
         }
     }
+
     /*Fin Header*/
 
     /*inicio carrusel*/
-    .contenedor__carrusel{
+    .contenedor__carrusel {
         margin-top: 20px;
-    
-        .multiple-items{
+
+        .multiple-items {
             max-width: 700px;
             padding: 2%;
         }
     }
+
     /*Fin Carrusel*/
 
-    /*inicio productos y empresa*/
-    .descripcion {
-        margin-top: 20px;
-        padding: 2%;
-        
-        .descripcion__imagen__productos {
-            display: none;
-           }
-   
-        .descripcion__imagen__empresa {
-            display: none;
+    /*Inicio fotos productos y empresa*/
+    .contenedor__MQ {
+        display: flex;
+        justify-content: center;
+
+        .contenedor__fotosMQ {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+
+            .foto__MQ {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 45%;
+
+                .foto__imagen__MQ {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
         }
-    
+    }
+
+    /*Fin fotos productos y empresa*/
+
+    /*inicio productos y empresa*/
+
+    .contenedor__descripcion {
+        margin-top: 20px;
+
+        .descripcion {
+            flex-direction: column;
+            justify-content: center;
+            width: 90%;
+
+            .descripcion__texto__productos {
+                width: 100%;
+            }
+
+            .descripcion__imagen {
+                display: none;
+
+                .descripcion__imagen__imagen {
+                    display: none;
+                }
+
+            }
+        }
     }
 
     /*Fin productos y empresa*/
@@ -289,56 +348,116 @@
         margin-top: 20px;
         display: none;
 
-        .footer__imagen{
+        .footer__imagen {
 
             .footer__imagen__imagen {
-             height: 100px;
-             width: 100px;
+                height: 100px;
+                width: 100px;
             }
         }
-        .footer__datos{    
-            
+
+        .footer__datos {
+
             .footer__datos__p {
-             font-size: 1rem;
+                font-size: 1rem;
             }
 
             .icono {
-             font-size: 1.3rem;
+                font-size: 1.3rem;
             }
         }
     }
+
     /*Fin footer*/
     /*Inicio pagina productos*/
-    .pastasTitulo__h2{
+    .pastasTitulo__h2 {
         display: flex;
         justify-content: center;
         padding-left: 0%;
         font-size: 60px;
     }
+
     /*Fin pagina productos*/
-    /*Inicio pagina Empresa*/
-    .empresa{
-    
-        .empresa__imagen{
-         width: 90%;
-        }
-    
-        .empresa__texto{
-         width: 90%;
+    /*Inicio pagina recetas*/
+
+    .contenedorReceta__MQ {
+        display: flex;
+        justify-content: center;
+
+        .contenedorReceta__fotosMQ {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+
+            .fotoReceta__MQ {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 45%;
+
+                .fotoReceta__imagen__MQ {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
         }
     }
-    /*Fin pagina empresa*/
-    /*Inicio pagina Contacto*/
-    .contenedor__contacto{
-        .contacto{
+    .contenedor__receta{
+        margin-top: 20px;
+    
+        .receta{
+            flex-direction: column;
+            
+            .receta1__texto{
+                width: 100%;
+            }
+            .receta2__texto{
+                width: 100%;
+            }
+    
+            .receta1__imagen{
+                display: none;
+            }
+            .receta2__imagen{
+                display: none;
+            }
+        
+                .receta__imagen__imagen {
+                  display: none;
+                }   
+            
+        }
+    }
+
+    /*Fin pagina recetas*/
+    /*Inicio pagina Empresa*/
+    .empresa {
+
+        .empresa__imagen {
+            width: 90%;
+        }
+
+        .empresa__texto {
             width: 90%;
         }
     }
-    .mapa{
-        .mapa__diseño{
+
+    /*Fin pagina empresa*/
+    /*Inicio pagina Contacto*/
+    .contenedor__contacto {
+        .contacto {
+            width: 90%;
+        }
+    }
+
+    .mapa {
+        .mapa__diseño {
             width: 90%;
             height: 350px;
         }
     }
+
     /*Fin pagina contacto*/
 }

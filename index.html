@@ -115,12 +115,25 @@
     </div>
       <!-- Fin de descrpcion productos -->
 
+      <!-- Inicio fotos producto y empresa mediaqueris 768-1024 -->
+    <div class="contenedor__MQ container-fluid">
+      <div class="contenedor__fotosMQ">
+      <div class="foto__MQ">
+        <a href="./paginas/productos.html"><img class="foto__imagen__MQ" src="./imagenes/empresa3.jpeg" alt="sin gluten" loading="lazy"/></a>
+      </div>
+      <div class="foto__MQ">
+        <a href="./paginas/empresa.html"></a><img class="foto__imagen__MQ" src="./imagenes/noquisembazados.jpeg" alt="foto empresa" loading="lazy" /></a>
+      </div>
+    </div>
+  </div>
+  <!-- Fin fotos producto y empresa mediaqueris 768-1024 -->
+
       <!-- Inicio descripcion de empresa -->
     <div class="contenedor__descripcion d-flex justify-content-center align-items-center">
       <div class="descripcion d-flex justify-content-between ">
         <div class="descripcion__imagen">
           <a href="./paginas/empresa.html"><img class="descripcion__imagen__imagen" loading="lazy"
-              src="./imagenes/noquisembazados.jpeg" alt="fotoempresa" /></a>
+              src="./imagenes/noquisembazados.jpeg" alt="foto empresa" /></a>
         </div>
         <div class="d-flex flex-column align-items-center descripcion__texto__empresa">
           <a class="descripcion__titulo__link" href="./paginas/productos.html">
@@ -204,14 +217,16 @@ $('.multiple-items').slick({
       breakpoint: 600,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplaySpeed: 2500
       }
     },
     {
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplaySpeed: 2500
       }
     }
     // You can unslick at a given breakpoint now by adding:

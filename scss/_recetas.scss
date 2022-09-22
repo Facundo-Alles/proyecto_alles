@@ -58,4 +58,19 @@
     }
 }
 
+/*Inicio fotos recetas mediaqueris 768-1024*/
+.contenedorReceta__MQ{
+    display: none;
+    .contenedorReceta__fotosMQ{
+        display: none;
+        .fotoReceta__MQ{
+            display: none;
+            .fotoReceta__imagen__MQ{
+                display: none;
+            }
+        }
+    }
+}
+/*Fin fotos recetas mediaqueris 768-1024*/
+
 /*Fin pagina empresa*/

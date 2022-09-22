@@ -18,6 +18,21 @@
 }
 /*Fin carrusel de productos*/
 
+/*Inicio fotos producto y empresa mediaqueris 768-1024*/
+.contenedor__MQ{
+    display: none;
+    .contenedor__fotosMQ{
+        display: none;
+        .foto__MQ{
+            display: none;
+            .foto__imagen__MQ{
+                display: none;
+            }
+        }
+    }
+}
+/*Fin fotos producto y empresa mediaqueris 768-1024*/
+
 /*Descripcion de los productos y empresa*/
 .contenedor__descripcion{
     margin-top: 2%;

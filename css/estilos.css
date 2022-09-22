@@ -133,6 +133,17 @@
       height: 98%; }
 
 /*Fin carrusel de productos*/
+/*Inicio fotos producto y empresa mediaqueris 768-1024*/
+.contenedor__MQ {
+  display: none; }
+  .contenedor__MQ .contenedor__fotosMQ {
+    display: none; }
+    .contenedor__MQ .contenedor__fotosMQ .foto__MQ {
+      display: none; }
+      .contenedor__MQ .contenedor__fotosMQ .foto__MQ .foto__imagen__MQ {
+        display: none; }
+
+/*Fin fotos producto y empresa mediaqueris 768-1024*/
 /*Descripcion de los productos y empresa*/
 .contenedor__descripcion {
   margin-top: 2%; }
@@ -230,6 +241,17 @@
       width: 100%;
       height: 100%; }
 
+/*Inicio fotos recetas mediaqueris 768-1024*/
+.contenedorReceta__MQ {
+  display: none; }
+  .contenedorReceta__MQ .contenedorReceta__fotosMQ {
+    display: none; }
+    .contenedorReceta__MQ .contenedorReceta__fotosMQ .fotoReceta__MQ {
+      display: none; }
+      .contenedorReceta__MQ .contenedorReceta__fotosMQ .fotoReceta__MQ .fotoReceta__imagen__MQ {
+        display: none; }
+
+/*Fin fotos recetas mediaqueris 768-1024*/
 /*Fin pagina empresa*/
 /*Inicio pagina contacto*/
 .contenedor__contacto {
@@ -430,14 +452,38 @@
       max-width: 700px;
       padding: 2%; }
   /*Fin Carrusel*/
+  /*Inicio fotos productos y empresa*/
+  .contenedor__MQ {
+    display: flex;
+    justify-content: center; }
+    .contenedor__MQ .contenedor__fotosMQ {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90%; }
+      .contenedor__MQ .contenedor__fotosMQ .foto__MQ {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%; }
+        .contenedor__MQ .contenedor__fotosMQ .foto__MQ .foto__imagen__MQ {
+          display: block;
+          width: 100%;
+          height: 100%; }
+  /*Fin fotos productos y empresa*/
   /*inicio productos y empresa*/
-  .descripcion {
-    margin-top: 20px;
-    padding: 2%; }
-    .descripcion .descripcion__imagen__productos {
-      display: none; }
-    .descripcion .descripcion__imagen__empresa {
-      display: none; }
+  .contenedor__descripcion {
+    margin-top: 20px; }
+    .contenedor__descripcion .descripcion {
+      flex-direction: column;
+      justify-content: center;
+      width: 90%; }
+      .contenedor__descripcion .descripcion .descripcion__texto__productos, .contenedor__descripcion .descripcion .descripcion__texto__empresa {
+        width: 100%; }
+      .contenedor__descripcion .descripcion .descripcion__imagen {
+        display: none; }
+        .contenedor__descripcion .descripcion .descripcion__imagen .descripcion__imagen__imagen {
+          display: none; }
   /*Fin productos y empresa*/
   /*inicio footer*/
   .footer {
@@ -458,6 +504,39 @@
     padding-left: 0%;
     font-size: 60px; }
   /*Fin pagina productos*/
+  /*Inicio pagina recetas*/
+  .contenedorReceta__MQ {
+    display: flex;
+    justify-content: center; }
+    .contenedorReceta__MQ .contenedorReceta__fotosMQ {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90%; }
+      .contenedorReceta__MQ .contenedorReceta__fotosMQ .fotoReceta__MQ {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%; }
+        .contenedorReceta__MQ .contenedorReceta__fotosMQ .fotoReceta__MQ .fotoReceta__imagen__MQ {
+          display: block;
+          width: 100%;
+          height: 100%; }
+  .contenedor__receta {
+    margin-top: 20px; }
+    .contenedor__receta .receta {
+      flex-direction: column; }
+      .contenedor__receta .receta .receta1__texto, .contenedor__receta .receta .receta2__texto {
+        width: 100%; }
+      .contenedor__receta .receta .receta2__texto {
+        width: 100%; }
+      .contenedor__receta .receta .receta1__imagen {
+        display: none; }
+      .contenedor__receta .receta .receta2__imagen {
+        display: none; }
+      .contenedor__receta .receta .receta__imagen__imagen {
+        display: none; }
+  /*Fin pagina recetas*/
   /*Inicio pagina Empresa*/
   .empresa .empresa__imagen {
     width: 90%; }
