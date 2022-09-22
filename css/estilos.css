@@ -328,7 +328,7 @@
       width: 90%; }
       .contenedor__descripcion .descripcion .descripcion__texto__productos, .contenedor__descripcion .descripcion .descripcion__texto__empresa {
         width: 100%;
-        margin-bottom: 20px; }
+        margin-bottom: 0px; }
       .contenedor__descripcion .descripcion .descripcion__texto__empresa {
         margin-top: 20px;
         margin-bottom: 0px; }
